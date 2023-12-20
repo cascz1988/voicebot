@@ -1,0 +1,2519 @@
+{
+  "intents": [
+   {
+      "tag": "saludos",
+      "patterns": [
+        "Hola",
+        "¿Qué tal?",
+        "Buen día",
+        "Hola que tal ¿Cómo estás?",
+        "Hola ¡Saludos!",
+        "Hola, alguine ahi!",
+        "Hola, ¿qué tal?",
+        "Buenas tardes",
+        "Hola, ¿cómo estás?",
+        "¡Buenos días!"
+      ],
+      "responses": [
+        "¡Hola! ¿En qué puedo ayudarte?",
+        "¡Hola! Estoy aquí para responder tus preguntas.",
+        "¡Buen día! ¿En qué puedo ayudarte?",
+        "Estoy bien, gracias. ¿En qué puedo ayudarte?",
+        "¡Saludos! ¿Qué puedo hacer por ti?",
+        "¡Hola! Soy tu asistente, ¿en qué puedo ayudarte?",
+        "Hey! ¿En qué puedo ayudarte?",
+        "¡Buenas tardes! ¿En qué puedo ayudarte?",
+        "Estoy bien, gracias. ¿Y tú?",
+        "¡Buenos días! ¿En qué puedo ayudarte?"
+      ]
+    },
+	{
+            "tag": "agradecimiento",
+            "patterns": [
+                "Gracias",
+                "Muchas gracias",
+                "Te agradezco",
+                "Estoy agradecido",
+                "Qué amable",
+                "Muy amable",
+                "Mil gracias",
+                "Gracias por todo",
+                "Gracias por la ayuda",
+                "Gracias por tu tiempo"
+            ],
+            "responses": [
+                "De nada, ¡estoy aquí para ayudarte!",
+                "¡Siempre es un placer ayudarte!",
+                "No hay problema, ¡siempre estoy dispuesto a ayudar!",
+                "¡No hay de qué! Me alegra poder ayudarte.",
+                "¡De nada! Estoy aquí para ayudarte en lo que necesites.",
+                "No hay problema, ¡estoy para ayudar en lo que necesites!",
+                "¡Siempre es un placer ayudarte! ¡Cuenta conmigo!",
+                "¡No hay de qué! ¡Estoy para ayudar en todo lo que necesites!",
+                "¡Estoy aquí para ayudarte siempre que lo necesites!",
+                "¡Gracias a ti por confiar en mí! ¡Estoy para ayudarte en lo que necesites!"
+            ]
+    },
+	{
+            "tag": "despedida",
+            "patterns": [
+                "Adiós",
+                "Hasta luego",
+                "Nos vemos",
+                "Chao",
+                "Hasta la próxima",
+                "Hasta pronto",
+                "Que estés bien",
+                "Nos vemos pronto",
+                "Hasta la vista",
+                "Fue un placer hablar contigo"
+            ],
+            "responses": [
+                "¡Hasta luego!",
+                "¡Adiós!",
+                "Que tengas un buen día",
+                "Hasta la vista",
+                "¡Nos vemos pronto!",
+                "¡Chao!",
+                "Cuídate",
+                "¡Fue un placer hablar contigo también!",
+                "¡Hasta la próxima!",
+                "¡Que tengas un buen día también!"
+            ]
+    },
+    {
+        "tag": "mercurio_masa",
+        "patterns": [
+            "¿Cuál es la masa de Mercurio?",
+            "¿Qué tanto pesa Mercurio?",
+            "¿Cuánto es la masa de Mercurio?",
+            "¿Sabes cuál es el peso de Mercurio?",
+            "¿Cuánta masa tiene Mercurio?",
+            "¿Podrías decirme la masa de Mercurio?",
+            "¿Cuánto pesa el planeta Mercurio?",
+            "¿Cuál es el peso de Mercurio comparado con la Tierra?",
+            "¿Qué tan grande es la masa de Mercurio?",
+            "¿Es cierto que Mercurio es el planeta más pequeño del Sistema Solar en términos de masa?"
+        ],
+        "responses": [
+            "La masa de Mercurio es de aproximadamente 3.3 x 10^23 kilogramos.",
+            "Mercurio tiene una masa de alrededor de 3.3 x 10^23 kg.",
+            "La masa de Mercurio es de unos 3.3 x 10^23 kilos.",
+            "El peso de Mercurio es de aproximadamente 3.3 x 10^23 kg.",
+            "La masa de Mercurio es de alrededor de 3.3 x 10^23 kilogramos.",
+            "Mercurio pesa alrededor de 3.3 x 10^23 kg.",
+            "La masa de Mercurio es cerca de 3.3 x 10^23 kilogramos.",
+            "El peso de Mercurio es aproximadamente 0.055 veces el de la Tierra.",
+            "La masa de Mercurio es aproximadamente un 5.5% de la masa de la Tierra.",
+            "Sí, Mercurio es el planeta más pequeño del Sistema Solar en términos de masa."
+        ]
+    },
+	{
+      "tag": "mercurio_tamaño",
+      "patterns": [
+        "¿Cuál es el diámetro de Mercurio?",
+        "¿Cuál es el tamaño de Mercurio?",
+        "¿Cuál es el radio de Mercurio?",
+        "¿Qué tan grande es Mercurio?",
+        "¿Cuál es el volumen de Mercurio?",
+        "¿Cuál es la circunferencia de Mercurio?",
+        "¿Qué tan grande es Mercurio en comparación con la Tierra?",
+        "¿Cuántas veces cabe la Tierra en Mercurio?",
+        "¿Cuánto pesaría un objeto de 100 kg en Mercurio?",
+        "¿Cuál es la gravedad en la superficie de Mercurio?"
+      ],
+      "responses": [
+        "El diámetro de Mercurio es de 4.880 km.",
+        "El tamaño de Mercurio es de aproximadamente un tercio del tamaño de la Tierra.",
+        "El radio de Mercurio es de 2.440 km.",
+        "Mercurio es el planeta más pequeño del sistema solar, con un tamaño de 4.880 km de diámetro.",
+        "El volumen de Mercurio es de aproximadamente 6.083 x 10^10 km³.",
+        "La circunferencia de Mercurio es de 15.329 km.",
+        "Mercurio es aproximadamente un tercio del tamaño de la Tierra.",
+        "La Tierra cabe alrededor de 18 veces en Mercurio.",
+        "Un objeto de 100 kg pesaría aproximadamente 38 kg en Mercurio debido a su menor gravedad.",
+        "La gravedad en la superficie de Mercurio es de 3,7 m/s², aproximadamente un tercio de la gravedad en la superficie de la Tierra."
+      ]
+    },
+	{
+      "tag": "mercurio_lunas",
+      "patterns": [
+        "¿Mercurio tiene lunas?",
+        "¿Existe alguna luna en Mercurio?",
+        "¿Cuántas lunas tiene Mercurio?",
+        "¿Hay alguna luna orbitando Mercurio?",
+        "¿Podría haber lunas en Mercurio?",
+        "¿Cuál es el nombre de la luna de Mercurio?",
+        "¿Existen satélites naturales en Mercurio?",
+        "¿Se han descubierto lunas en Mercurio?",
+        "¿Por qué Mercurio no tiene lunas?",
+        "¿Cómo afecta la falta de lunas a Mercurio?"
+      ],
+      "responses": [
+        "Mercurio no tiene lunas.",
+        "No se ha encontrado ninguna luna en Mercurio.",
+        "Mercurio no tiene lunas conocidas.",
+        "No hay lunas orbitando Mercurio.",
+        "Se cree que Mercurio no tiene lunas debido a su proximidad al Sol y su pequeño tamaño.",
+        "Mercurio no tiene ninguna luna conocida.",
+        "No se ha descubierto ninguna luna o satélite natural en Mercurio.",
+        "La falta de lunas en Mercurio se debe a su cercanía al Sol y su pequeño tamaño.",
+        "La ausencia de lunas en Mercurio no parece tener un gran efecto en el planeta debido a su proximidad al Sol y su pequeño tamaño.",
+        "Mercurio no tiene satélites naturales conocidos."
+      ]
+    },
+	{
+      "tag": "mercurio_atmosfera",
+      "patterns": [
+        "¿Tiene Mercurio atmósfera?",
+        "¿Cuál es la atmósfera de Mercurio?",
+        "¿Existe aire en Mercurio?",
+        "¿Cómo es la atmósfera de Mercurio?",
+        "¿Qué gases componen la atmósfera de Mercurio?",
+        "¿Puede existir vida en Mercurio debido a su atmósfera?",
+        "¿Qué tan densa es la atmósfera de Mercurio?",
+        "¿Hay presión atmosférica en Mercurio?",
+        "¿Cómo afecta la atmósfera de Mercurio a la temperatura en el planeta?",
+        "¿Qué fenómenos atmosféricos ocurren en Mercurio?"
+      ],
+      "responses": [
+        "Mercurio tiene una atmósfera muy tenue compuesta principalmente por pequeñas cantidades de hidrógeno, helio, oxígeno, sodio, calcio y potasio.",
+        "La atmósfera de Mercurio es muy tenue, con una presión superficial máxima de solo 0,5 nanobares.",
+        "No hay aire en Mercurio ya que su atmósfera es muy tenue.",
+        "La atmósfera de Mercurio está compuesta principalmente por gases como hidrógeno, helio, oxígeno, sodio, calcio y potasio.",
+        "Debido a la falta de una atmósfera significativa, es improbable que haya vida en Mercurio.",
+        "La atmósfera de Mercurio es muy delgada, con una densidad superficial de solo 0,5 nanobares.",
+        "No hay presión atmosférica significativa en Mercurio debido a su atmósfera tenue.",
+        "La atmósfera de Mercurio no tiene un impacto significativo en la temperatura en el planeta debido a su falta de densidad.",
+        "Debido a la falta de una atmósfera significativa, no ocurren fenómenos atmosféricos notables en Mercurio.",
+        "Aunque la atmósfera de Mercurio es muy delgada, se ha observado que sufre efectos de erosión por el viento solar y otros fenómenos."
+      ]
+    },
+	{
+      "tag": "mercurio_color",
+      "patterns": [
+        "¿De qué color es Mercurio?",
+        "¿Cuál es el color de Mercurio?",
+        "Háblame del color de Mercurio",
+        "¿Mercurio tiene algún color en particular?",
+        "¿Cómo es el color de Mercurio?",
+        "¿Es verdad que Mercurio es de color gris?",
+        "¿Qué color predomina en Mercurio?",
+        "¿Se sabe por qué Mercurio tiene ese color?",
+        "¿Hay alguna explicación científica para el color de Mercurio?",
+        "¿Es posible ver el color de Mercurio a simple vista?"
+      ],
+      "responses": [
+        "Mercurio es principalmente de color gris, pero también presenta tonos marrones y rojizos debido a la presencia de hierro y otros minerales en su superficie.",
+        "El color predominante de Mercurio es gris, pero también se pueden observar tonos marrones y rojizos.",
+        "Mercurio es mayormente gris, aunque también tiene tonos marrones y rojizos debido a la presencia de minerales como el hierro en su superficie.",
+        "El color de Mercurio es gris, pero también presenta matices marrones y rojizos.",
+        "El color de Mercurio se asemeja al de la Luna, es decir, mayormente gris pero con algunos tonos marrones y rojizos.",
+        "Sí, es cierto que Mercurio es principalmente de color gris, pero también presenta tonos marrones y rojizos debido a los minerales en su superficie.",
+        "El color predominante en Mercurio es el gris, aunque también se pueden observar tonos marrones y rojizos en su superficie.",
+        "Los científicos creen que el color de Mercurio es principalmente gris debido a la gran cantidad de cráteres en su superficie, pero también se pueden observar tonos marrones y rojizos debido a los minerales presentes.",
+        "El color de Mercurio se debe a su superficie rocosa, que es principalmente de color gris, aunque también presenta matices marrones y rojizos debido a la presencia de minerales como el hierro.",
+        "No es posible ver el color de Mercurio a simple vista, ya que se encuentra muy cerca del Sol y su brillo impide ver detalles en su superficie."
+      ]
+    },
+	{
+      "tag": "mercurio_descubrimiento",
+      "patterns": [
+        "¿Quién descubrió Mercurio?",
+        "¿Cuándo fue descubierto Mercurio?",
+        "¿Cómo fue descubierto Mercurio?",
+        "¿Quién fue el primer científico en observar Mercurio?",
+        "¿Cuál es la historia del descubrimiento de Mercurio?",
+        "¿Qué civilización descubrió Mercurio por primera vez?",
+        "¿Cómo se llamó Mercurio en la antigüedad?",
+        "¿Quién nombró a Mercurio en la antigüedad?",
+        "¿Por qué Mercurio fue un planeta difícil de descubrir?",
+        "¿Qué tecnologías se utilizaron para descubrir Mercurio?"
+      ],
+      "responses": [
+        "Mercurio fue conocido por los antiguos griegos y romanos. Sin embargo, es difícil decir exactamente quién lo descubrió ya que no hay un registro histórico definitivo del descubrimiento. ",
+        "No se sabe con certeza quién descubrió Mercurio, pero se sabe que fue conocido por las civilizaciones antiguas. El primer registro de Mercurio se encuentra en textos sumerios de alrededor de 3,000 a.C.",
+        "Mercurio fue descubierto por los antiguos griegos y romanos. Fue uno de los cinco planetas conocidos por los antiguos, junto con Venus, Marte, Júpiter y Saturno.",
+        "El astrónomo y matemático griego Hiparco de Nicea fue el primer científico conocido en observar Mercurio. Lo observó en el siglo II a.C.",
+        "La historia del descubrimiento de Mercurio se remonta a las civilizaciones antiguas, como los sumerios, babilonios, egipcios, griegos y romanos. Cada cultura tenía su propia forma de referirse a este planeta, y sus observaciones se transmitieron de generación en generación a través de textos y escritos antiguos.",
+        "La civilización sumeria es una de las primeras en registrar el descubrimiento de Mercurio, alrededor de 3000 a.C. Los babilonios también lo conocían y lo observaban en el cielo. Los antiguos griegos y romanos también lo observaron, y los romanos lo llamaron Mercurio, el mensajero de los dioses.",
+        "En la antigua Grecia y Roma, Mercurio era conocido como Hermes o Mercurio. Los griegos lo llamaban Hermes, el mensajero de los dioses, y los romanos lo llamaban Mercurio, el mensajero de los dioses. ",
+        "El planeta Mercurio fue nombrado por los romanos después de su dios Mercurio, que era el mensajero de los dioses en la mitología romana. Los griegos lo llamaban Hermes, y también era el mensajero de los dioses en la mitología griega.",
+		"Mercurio fue un planeta difícil de descubrir debido a que siempre se encuentra cerca del Sol en el cielo, lo que dificulta su visibilidad. Además, su órbita es relativamente rápida, por lo que se mueve rápidamente a través del cielo. Por estas razones, los astrónomos antiguos no pudieron observar Mercurio con suficiente detalle como para identificarlo como un planeta individual y no simplemente una estrella más cercana al Sol.",
+		"El descubrimiento de Mercurio fue posible gracias a la invención del telescopio, que permitió a los astrónomos observar el cielo con mayor detalle. También se utilizó la fotografía astronómica para documentar las observaciones y realizar mediciones más precisas."
+		]
+    },
+	{
+      "tag": "mercurio_rotacion",
+      "patterns": [
+        "¿Cuánto tarda Mercurio en rotar sobre su propio eje?",
+        "¿Cuál es el periodo de rotación de Mercurio?",
+        "¿Mercurio tiene una rotación rápida o lenta?",
+        "¿Cuánto dura un día en Mercurio?",
+        "¿Cómo es la rotación de Mercurio?",
+        "¿Mercurio rota en sentido horario o antihorario?",
+        "¿Por qué la rotación de Mercurio es tan lenta?",
+        "¿La rotación de Mercurio es sincrónica?",
+        "¿Cuál es la velocidad de rotación de Mercurio?",
+        "¿La rotación de Mercurio afecta su temperatura?"
+      ],
+      "responses": [
+        "Mercurio tiene una rotación lenta. Tarda aproximadamente 59 días terrestres en completar una rotación sobre su propio eje.",
+        "El periodo de rotación de Mercurio es de aproximadamente 59 días terrestres.",
+        "Mercurio tiene una rotación lenta.",
+        "Un día en Mercurio dura aproximadamente 59 días terrestres.",
+        "La rotación de Mercurio es lenta y compleja debido a su órbita y su tamaño relativamente pequeño.",
+        "Mercurio rota en sentido horario, lo que significa que su día es más largo que su año.",
+        "La rotación de Mercurio es lenta debido a su órbita excéntrica y su pequeño tamaño.",
+        "La rotación de Mercurio es casi sincrónica, lo que significa que su periodo de rotación es casi igual a su periodo orbital.",
+        "La velocidad de rotación de Mercurio es de aproximadamente 10.83 kilómetros por hora en su ecuador.",
+        "La rotación de Mercurio afecta su temperatura, ya que su lado diurno puede alcanzar temperaturas muy altas mientras que su lado nocturno puede ser extremadamente frío."
+      ]
+    },
+	{
+      "tag": "mercurio_orbita",
+      "patterns": [
+        "¿Cuál es la órbita de Mercurio?",
+        "¿A qué distancia está Mercurio del sol?",
+        "¿Cuánto tarda Mercurio en dar una vuelta al sol?",
+        "¿Cuál es la forma de la órbita de Mercurio?",
+        "¿Mercurio tiene una órbita elíptica?",
+        "¿Cuál es el periodo orbital de Mercurio?",
+        "¿Cuál es la velocidad orbital de Mercurio?",
+        "¿Cuál es la excentricidad de la órbita de Mercurio?",
+        "¿Cuál es el perihelio de la órbita de Mercurio?",
+        "¿Cuál es el afelio de la órbita de Mercurio?"
+      ],
+      "responses": [
+        "La órbita de Mercurio es elíptica y su distancia media al sol es de aproximadamente 57.9 millones de kilómetros.",
+        "Mercurio se encuentra a una distancia media del sol de aproximadamente 57.9 millones de kilómetros.",
+        "Mercurio tarda alrededor de 88 días terrestres en dar una vuelta completa alrededor del sol.",
+        "La forma de la órbita de Mercurio es elíptica.",
+        "Sí, la órbita de Mercurio es elíptica.",
+        "El periodo orbital de Mercurio es de aproximadamente 88 días terrestres.",
+        "La velocidad orbital promedio de Mercurio es de aproximadamente 47.87 km/s.",
+        "La excentricidad de la órbita de Mercurio es de aproximadamente 0.21.",
+        "El perihelio de la órbita de Mercurio es de aproximadamente 46 millones de kilómetros.",
+        "El afelio de la órbita de Mercurio es de aproximadamente 69.8 millones de kilómetros."
+      ]
+    },
+	{
+      "tag": "mercurio_superficie",
+      "patterns": [
+        "¿Cuáles son las características de la superficie de Mercurio?",
+        "¿Qué tipo de terreno tiene la superficie de Mercurio?",
+        "¿Cuáles son los principales rasgos de la superficie de Mercurio?",
+        "¿Qué podemos encontrar en la superficie de Mercurio?",
+        "¿Cuáles son las formaciones geológicas más destacadas en la superficie de Mercurio?",
+        "¿Cómo es la topografía de la superficie de Mercurio?",
+        "¿Cuáles son las características de los cráteres en la superficie de Mercurio?",
+        "¿Cómo es el terreno en las regiones polares de la superficie de Mercurio?",
+        "¿Qué podemos aprender de la superficie de Mercurio?",
+        "¿Cómo ha sido estudiada la superficie de Mercurio?"
+      ],
+      "responses": [
+        "La superficie de Mercurio está compuesta principalmente de cráteres, montañas, llanuras y cañones.",
+        "La superficie de Mercurio es rocosa y árida, con muchas llanuras cubiertas de polvo y cráteres de impacto.",
+        "Los principales rasgos de la superficie de Mercurio son cráteres de impacto, montañas, llanuras y cañones.",
+        "En la superficie de Mercurio podemos encontrar cráteres, montañas, llanuras y cañones, así como una gran variedad de rocas y minerales.",
+        "Las formaciones geológicas más destacadas en la superficie de Mercurio son los cráteres de impacto, algunos de los cuales tienen cientos de kilómetros de diámetro, y las montañas que se elevan hasta más de 4 kilómetros sobre la superficie.",
+        "La topografía de la superficie de Mercurio es muy variada, con cráteres profundos, montañas empinadas y llanuras extensas.",
+        "Los cráteres en la superficie de Mercurio son muy numerosos y algunos son muy grandes, con bordes elevados y pisos planos.",
+        "El terreno en las regiones polares de la superficie de Mercurio es muy interesante, ya que hay depósitos de hielo de agua y otros volátiles que se encuentran en cráteres permanentemente sombreados.",
+        "Podemos aprender mucho sobre la historia y evolución del sistema solar a través del estudio de la superficie de Mercurio, incluyendo la formación y el bombardeo temprano de planetas y asteroides.",
+        "La superficie de Mercurio ha sido estudiada por varias misiones espaciales, incluyendo la misión MESSENGER de la NASA, que orbitó el planeta durante varios años y proporcionó datos detallados sobre su superficie y composición."
+      ]
+    },
+	{
+      "tag": "mercurio_misiones",
+      "patterns": [
+		"¿Qué misiones espaciales se han realizado en Mercurio?", 
+		"¿Qué misiones han visitado Mercurio?", 
+		"¿Cuáles son las misiones que han estudiado Mercurio?", 
+		"¿Qué agencias espaciales han enviado misiones a Mercurio?", 
+		"¿Cuáles son las misiones más importantes a Mercurio?", 
+		"¿Cuántas misiones han sido enviadas a Mercurio?", 
+		"¿Cuál fue la primera misión a Mercurio?", 
+		"¿Qué se descubrió en la misión a Mercurio BepiColombo?" , 
+		"¿En qué año fue lanzada la misión BepiColombo a Mercurio?", 
+		"¿Qué instrumentos lleva la misión BepiColombo a Mercurio?" ],
+      "responses": [
+		"Hasta la fecha se han realizado 2 misiones a Mercurio: MESSENGER y BepiColombo.", 
+		"Las misiones que han visitado Mercurio son MESSENGER y BepiColombo.", 
+		"Las misiones que han estudiado Mercurio son MESSENGER y BepiColombo.", 
+		"Las agencias espaciales que han enviado misiones a Mercurio son la NASA y la ESA.", 
+		"Las misiones más importantes a Mercurio son MESSENGER y BepiColombo.", 
+		"Hasta ahora se han enviado 2 misiones a Mercurio.", 
+		"La primera misión a Mercurio fue la misión estadounidense MESSENGER.", 
+		"En la misión BepiColombo se descubrieron detalles sobre la composición, estructura y evolución del planeta.",
+		"La misión BepiColombo fue lanzada en octubre de 2018.", 
+		"La misión BepiColombo lleva una serie de instrumentos científicos para estudiar la superficie, la estructura interna, la atmósfera y el entorno magnético de Mercurio."]
+    },
+	
+	{
+      "tag": "venus_masa",
+      "patterns": [
+        "¿Cuál es la masa de Venus?",
+        "¿Cuánto pesa Venus?",
+        "Dime la masa de Venus",
+        "¿Sabes cuánto es la masa de Venus?",
+        "Quiero saber la masa de Venus",
+        "Háblame sobre la masa de Venus",
+        "¿Puedes decirme cuánto pesa Venus?",
+        "¿Cuál es el peso de Venus?",
+        "¿Cómo es la masa de Venus?",
+        "¿Qué cantidad de masa tiene Venus?"
+      ],
+      "responses": [
+        "La masa de Venus es de aproximadamente 4.867 × 10 elevado a la 24 kg.",
+        "Venus tiene una masa de alrededor de 4.867 × 10 elevado a la 24 kg.",
+        "La masa de Venus equivale a aproximadamente 0.815 veces la masa de la Tierra.",
+        "La masa de Venus es de alrededor de 81.5% la masa de la Tierra.",
+        "La masa de Venus es de alrededor de 4.87 x 10 elevado a la 24 kg.",
+        "Venus tiene una masa de aproximadamente 4.87 x 10 elevado a la 24 kg.",
+        "La masa de Venus es muy similar a la de la Tierra y se estima en 4.87 × 10 elevado a la 24 kg.",
+        "La masa de Venus es de 4.87 × 10 elevado a la 24 kg, casi igual a la masa de la Tierra.",
+        "La masa de Venus es de 4.87 x 10 elevado a la 24 kg, lo que significa que es 0.815 veces la masa de la Tierra.",
+        "La masa de Venus es de 4.87 x 10 elevado a la 24 kg, que es aproximadamente 81.5% de la masa de la Tierra."
+      ]
+    },
+	{
+        "tag": "venus_tamaño",
+            "patterns": [
+                "¿Cuál es el tamaño de Venus?",
+                "¿Cuál es el diámetro de Venus?",
+                "¿Cuánto mide Venus?",
+                "¿Cuál es el tamaño de Venus comparado con la Tierra?",
+                "¿Cuál es el volumen de Venus?",
+                "¿Cuál es la superficie de Venus?",
+                "¿Venus es más grande que Mercurio?",
+                "¿Venus es más grande que la Tierra?",
+                "¿Venus es más pequeño que Júpiter?",
+                "¿Cuál es el tamaño del planeta Venus?"
+            ],
+            "responses": [
+                "El diámetro de Venus es de aproximadamente 12,104 kilómetros.",
+                "El tamaño de Venus es un poco más pequeño que el de la Tierra, con un diámetro de alrededor de 95% del de la Tierra.",
+                "El diámetro de Venus es de aproximadamente 12,104 kilómetros.",
+                "El tamaño de Venus es un poco más pequeño que el de la Tierra, con un diámetro de alrededor de 95% del de la Tierra.",
+                "El volumen de Venus es aproximadamente 0,866 veces el de la Tierra.",
+                "La superficie de Venus es de alrededor de 460 millones de kilómetros cuadrados.",
+                "Sí, Venus es más grande que Mercurio.",
+                "No, Venus es un poco más pequeño que la Tierra.",
+                "Sí, Venus es más pequeño que Júpiter.",
+                "El diámetro de Venus es de aproximadamente 12,104 kilómetros."
+            ]
+    },
+	{
+      "tag": "venus_lunas",
+      "patterns": [
+        "¿Venus tiene alguna luna?",
+        "¿Existen satélites naturales alrededor de Venus?",
+        "¿Hay alguna luna orbitando alrededor de Venus?",
+        "¿Venus tiene algún compañero celestial?",
+        "¿Qué sabemos acerca de las lunas de Venus?",
+        "¿Ha sido descubierta alguna luna en el sistema venusiano?",
+        "¿Hay alguna misión espacial planeada para explorar las lunas de Venus?",
+        "¿Existen teorías acerca de la existencia de lunas en Venus?",
+        "¿Podría Venus tener algún tipo de satélite natural?",
+        "¿Cuál es la posibilidad de que Venus tenga una luna?"
+      ],
+      "responses": [
+        "No, Venus no tiene lunas conocidas.",
+        "No, Venus no tiene satélites naturales conocidos.",
+        "No, actualmente no se conocen lunas orbitando alrededor de Venus.",
+        "No se han descubierto lunas en el sistema venusiano.",
+        "Actualmente no existe ninguna misión espacial planeada para explorar las lunas de Venus, ya que no se conocen.",
+        "Hasta ahora, no hay teorías ni evidencia que sugieran la existencia de lunas alrededor de Venus.",
+        "Debido a la cercanía de Venus al Sol, la posibilidad de que tenga una luna es extremadamente baja.",
+        "Aunque no hay evidencia de la existencia de lunas alrededor de Venus, los científicos continúan investigando y analizando los datos disponibles en busca de pistas.",
+        "Es poco probable que Venus tenga lunas, ya que su cercanía al Sol y la falta de una fuerte atracción gravitatoria hacen difícil que las lunas se mantengan en órbita alrededor del planeta.",
+        "Debido a la configuración del sistema solar y las características del planeta, se cree que Venus no tiene lunas."
+      ]
+    },
+	{
+        "tag": "venus_atmosfera",
+        "patterns": [
+                "¿Cómo es la atmósfera de Venus?",
+                "Describa la atmósfera de Venus",
+                "¿Qué gases componen la atmósfera de Venus?",
+                "¿Por qué la atmósfera de Venus es tan densa?",
+                "¿Cuál es la presión atmosférica en Venus?",
+                "¿Cómo afecta la atmósfera de Venus a las sondas espaciales?",
+                "¿Qué hace que la atmósfera de Venus sea tan caliente?",
+                "¿Cuál es la temperatura de la atmósfera de Venus?",
+                "¿Por qué la atmósfera de Venus tiene un efecto invernadero tan fuerte?",
+                "¿Qué hace que la atmósfera de Venus tenga un color amarillo anaranjado?"
+            ],
+        "responses": [
+                "La atmósfera de Venus es extremadamente densa y compuesta principalmente por dióxido de carbono, nitrógeno y una pequeña cantidad de otros gases.",
+                "La atmósfera de Venus es muy densa y está compuesta principalmente por dióxido de carbono. También contiene nitrógeno y una pequeña cantidad de otros gases.",
+                "La atmósfera de Venus está compuesta principalmente por dióxido de carbono, nitrógeno y una pequeña cantidad de otros gases, como el agua y el dióxido de azufre.",
+                "La atmósfera de Venus es tan densa debido a su alta presión atmosférica, que es más de 90 veces la presión atmosférica de la Tierra.",
+                "La presión atmosférica en Venus es de aproximadamente 90 veces la presión atmosférica de la Tierra.",
+                "La densa atmósfera de Venus dificulta el aterrizaje de sondas espaciales en la superficie del planeta.",
+                "La atmósfera de Venus es muy caliente debido al efecto invernadero extremadamente fuerte causado por la alta cantidad de dióxido de carbono en la atmósfera.",
+                "La temperatura en la atmósfera de Venus varía con la altitud, pero la temperatura promedio en la superficie es de alrededor de 460 grados Celsius.",
+                "La atmósfera de Venus tiene un efecto invernadero muy fuerte debido a la alta cantidad de dióxido de carbono presente en la atmósfera.",
+                "El color amarillo anaranjado de la atmósfera de Venus es el resultado de la luz del sol que se filtra a través de la atmósfera, que contiene nubes de ácido sulfúrico."
+            ]
+    },
+	{
+      "tag": "venus_color",
+      "patterns": [
+        "¿De qué color es Venus?",
+        "¿Cómo es el color de Venus?",
+        "¿Venus es de color amarillo?",
+        "¿Por qué Venus es de color amarillo?",
+        "¿Qué color tiene la atmósfera de Venus?",
+        "¿Cómo afecta la atmósfera de Venus en su color?",
+        "¿Por qué se ve Venus tan brillante en el cielo nocturno?",
+        "¿Cuál es la relación entre el color de Venus y su superficie?",
+        "¿Por qué Venus parece ser más brillante que otros planetas?",
+        "¿Cómo se ve Venus a simple vista?"
+      ],
+      "responses": [
+        "Venus tiene un color amarillo brillante.",
+        "El color de Venus es amarillo debido a la reflexión de la luz solar en su atmósfera.",
+        "Si, Venus es de color amarillo.",
+        "La atmósfera densa y la presencia de nubes en Venus hacen que se vea de color amarillo.",
+        "La atmósfera de Venus tiene un color amarillo oscuro debido a la presencia de gases como dióxido de carbono y nitrógeno.",
+        "La atmósfera densa de Venus es la razón por la que se ve tan brillante en el cielo nocturno.",
+        "Venus parece más brillante que otros planetas debido a su cercanía con la Tierra y a la reflexión de la luz solar en su atmósfera.",
+        "El color de Venus está relacionado con su superficie ya que las nubes en su atmósfera reflejan la luz solar y enmascaran su superficie.",
+        "La reflexión de la luz solar en la atmósfera densa de Venus es la razón por la que se ve tan brillante en el cielo nocturno.",
+        "A simple vista, Venus se ve como un punto de luz brillante en el cielo nocturno y su color amarillo brillante es distintivo."
+      ]
+    },
+	{
+        "tag": "venus_descubrimiento",
+            "patterns": [
+                "¿Quién descubrió Venus?",
+                "¿Cómo se descubrió Venus?",
+                "¿Cuándo se descubrió Venus?",
+                "¿Por qué se llama Venus?",
+                "¿Cuál fue el primer avistamiento de Venus en la historia?",
+                "¿Cómo fue el descubrimiento de Venus por las civilizaciones antiguas?",
+                "¿Qué exploraciones se han hecho en Venus desde su descubrimiento?",
+                "¿Qué importancia tuvo el descubrimiento de Venus en la historia de la astronomía?",
+                "¿Cuál fue el papel de Galileo en el descubrimiento de Venus?",
+                "¿Cómo ha influido el descubrimiento de Venus en la cultura y la mitología?"
+            ],
+            "responses": [
+                "No se puede atribuir el descubrimiento de Venus a una sola persona, ya que ha sido conocido desde tiempos prehistóricos.",
+                "Venus ha sido conocido desde tiempos prehistóricos, por lo que no se puede determinar exactamente cómo se descubrió.",
+                "Venus ha sido conocido desde tiempos prehistóricos, por lo que no se puede determinar una fecha específica de su descubrimiento.",
+                "Venus fue nombrado en honor a la diosa romana del amor y la belleza.",
+                "El primer avistamiento de Venus en la historia fue hecho por los babilonios en el segundo milenio antes de Cristo.",
+                "Las civilizaciones antiguas, como los babilonios y los mayas, observaron Venus y la incorporaron en sus mitologías y calendarios.",
+                "Se han hecho varias exploraciones en Venus desde su descubrimiento, incluyendo misiones espaciales y observaciones telescópicas.",
+                "El descubrimiento de Venus fue importante en la historia de la astronomía porque ayudó a comprender la naturaleza del sistema solar.",
+                "Galileo observó Venus en el siglo XVII y descubrió que tenía fases similares a las de la Luna, lo que apoyó la teoría de Copérnico de que los planetas giran alrededor del Sol.",
+                "El descubrimiento de Venus ha influido en la cultura y la mitología de muchas sociedades, incluyendo los griegos, los romanos y los mayas."
+            ]
+    },
+	
+	{
+            "tag": "venus_rotacion",
+            "patterns": [
+                "¿Cuánto tarda Venus en rotar sobre su eje?",
+                "¿Cuántas horas dura un día en Venus?",
+                "¿Venus tiene una rotación directa o retrograda?",
+                "¿Cómo es la rotación de Venus?",
+                "¿Por qué la rotación de Venus es lenta?",
+                "¿Cómo se determinó la velocidad de rotación de Venus?",
+                "¿Cuál es la velocidad de rotación de Venus?",
+                "¿Cómo afecta la rotación de Venus a su clima?",
+                "¿Por qué Venus tiene una rotación tan lenta?",
+                "¿Cómo afecta la rotación de Venus a su campo magnético?"
+            ],
+            "responses": [
+                "Venus tarda aproximadamente 243 días terrestres en completar una rotación sobre su eje.",
+                "Un día en Venus dura 243 días terrestres.",
+                "Venus tiene una rotación retrógrada, es decir, gira en dirección opuesta a la mayoría de los planetas del sistema solar.",
+                "La rotación de Venus es lenta y retrograda.",
+                "La rotación lenta de Venus se debe a la influencia de las fuerzas gravitatorias del Sol y la Luna.",
+                "La velocidad de rotación de Venus se determinó por medio de radares que han sido enviados a explorar el planeta.",
+                "La velocidad de rotación de Venus es de aproximadamente 6,5 kilómetros por hora.",
+                "La rotación lenta de Venus contribuye a su clima extremadamente hostil, con temperaturas superficiales que pueden superar los 450 grados Celsius.",
+                "La rotación lenta de Venus es el resultado de una colisión en el pasado del planeta con otro objeto de gran tamaño.",
+                "La rotación de Venus afecta su campo magnético, generando una dinamo que produce un campo magnético más débil que el de la Tierra."
+            ]
+    },
+	{
+        "tag": "venus_orbita",
+            "patterns": [
+                "¿Cuál es el periodo orbital de Venus?",
+                "¿Cuánto tarda Venus en dar una vuelta alrededor del Sol?",
+                "¿A qué distancia está Venus del Sol?",
+                "¿Cuál es la forma de la órbita de Venus?",
+                "¿En qué dirección orbita Venus alrededor del Sol?",
+                "¿Qué es la traslación orbital de Venus?",
+                "¿Qué velocidad tiene Venus en su órbita alrededor del Sol?",
+                "¿Cómo afecta la órbita de Venus a su temperatura?",
+                "¿Cuál es la inclinación de la órbita de Venus con respecto al plano de la eclíptica?",
+                "¿Cómo afecta la órbita de Venus a su visibilidad desde la Tierra?"
+            ],
+            "responses": [
+                "El periodo orbital de Venus es de aproximadamente 225 días terrestres.",
+                "Venus tarda alrededor de 225 días terrestres en dar una vuelta alrededor del Sol.",
+                "Venus orbita a una distancia media de aproximadamente 108 millones de kilómetros del Sol.",
+                "La órbita de Venus es elíptica, con el Sol ubicado en uno de los focos de la elipse.",
+                "Venus orbita alrededor del Sol en dirección opuesta a la mayoría de los planetas del Sistema Solar.",
+                "La traslación orbital de Venus es el movimiento que realiza el planeta alrededor del Sol.",
+                "La velocidad orbital de Venus es de aproximadamente 35 kilómetros por segundo.",
+                "La órbita de Venus tiene un impacto significativo en su temperatura, ya que su cercanía al Sol contribuye a que sea el planeta más caliente del Sistema Solar.",
+                "La inclinación de la órbita de Venus con respecto al plano de la eclíptica es de aproximadamente 3.4 grados.",
+                "La órbita de Venus afecta su visibilidad desde la Tierra, ya que su posición relativa con respecto al Sol y la Tierra determina cuándo es visible y cuándo no."
+            ]
+    },
+	{
+            "tag": "venus_misiones",
+            "patterns": [
+                "¿Qué misiones se han enviado a Venus?",
+                "¿Qué agencias espaciales han enviado misiones a Venus?",
+                "¿Cuándo se lanzó la primera misión a Venus?",
+                "¿Cuál fue la primera nave espacial en llegar a Venus?",
+                "¿Cuántas misiones tripuladas se han enviado a Venus?",
+                "¿Qué descubrimientos importantes se han hecho gracias a las misiones a Venus?",
+                "¿Cuáles son los próximos planes para misiones a Venus?",
+                "¿Se han encontrado signos de vida en Venus en alguna de las misiones?",
+                "¿Cuál es la misión más reciente que se ha enviado a Venus?",
+                "¿Qué tipo de instrumentos llevan las misiones a Venus?"
+            ],
+            "responses": [
+                "Se han enviado muchas misiones a Venus, incluyendo la serie Venera y las misiones Magallanes, Venus Express y Akatsuki, entre otras.",
+                "Las agencias espaciales que han enviado misiones a Venus incluyen la NASA, la Agencia Espacial Europea, la Agencia Espacial Rusa y la Agencia Japonesa de Exploración Aeroespacial.",
+                "La primera misión a Venus fue lanzada en 1961 por la Unión Soviética.",
+                "La primera nave espacial en llegar a Venus fue la Venera 1, lanzada por la Unión Soviética en 1961.",
+                "Ninguna misión tripulada ha sido enviada a Venus.",
+                "Las misiones a Venus han permitido descubrir información sobre la atmósfera, el clima y la geología del planeta, así como datos sobre su historia y evolución.",
+                "Actualmente, hay varios planes para enviar nuevas misiones a Venus en los próximos años, incluyendo las misiones VERITAS y DAVINCI+ de la NASA y la misión EnVision de la Agencia Espacial Europea.",
+                "Hasta el momento, no se ha encontrado evidencia de vida en Venus en ninguna de las misiones enviadas.",
+                "La misión más reciente que se ha enviado a Venus es la misión Akatsuki de la Agencia Japonesa de Exploración Aeroespacial, lanzada en 2010.",
+                "Las misiones a Venus llevan una variedad de instrumentos, incluyendo cámaras, espectrómetros, altímetros, magnetómetros y analizadores de gases, entre otros."
+            ]
+    },
+	{
+        "tag": "venus_superficie",
+        "patterns": [
+            "¿Cómo es la superficie de Venus?",
+            "Describe la superficie de Venus",
+            "¿Qué se sabe sobre la superficie de Venus?",
+            "¿Hay montañas en Venus?",
+            "¿Qué tipo de terreno hay en Venus?",
+            "¿Cómo son los cráteres en Venus?",
+            "¿Hay volcanes en Venus?",
+            "¿Hay agua en la superficie de Venus?",
+            "¿Cuál es la temperatura en la superficie de Venus?",
+            "¿Cómo se compara la superficie de Venus con la de la Tierra?"
+        ],
+        "responses": [
+            "La superficie de Venus es muy caliente y seca, y está cubierta de rocas volcánicas y polvo.",
+            "Se sabe que la superficie de Venus es muy árida y rocosa, con llanuras, montañas y cráteres.",
+            "La superficie de Venus es muy hostil, con una atmósfera densa que crea un efecto invernadero extremo, lo que la convierte en el planeta más caliente del sistema solar. Se cree que la superficie está cubierta de rocas volcánicas y polvo.",
+            "No se han encontrado montañas altas en Venus, pero hay numerosos volcanes y cordilleras.",
+            "El terreno de Venus está compuesto principalmente de llanuras volcánicas y mesetas, así como de grandes zonas de terreno elevado.",
+            "Los cráteres en Venus son relativamente raros en comparación con otros planetas, debido a la actividad volcánica y a la falta de meteoritos en la atmósfera de Venus. Sin embargo, los cráteres que se han descubierto son similares a los de la Luna y Marte.",
+            "Sí, hay muchos volcanes en Venus, algunos de los cuales son los más grandes del sistema solar.",
+            "No se ha encontrado agua líquida en la superficie de Venus, debido a las condiciones extremas de temperatura y presión.",
+            "La temperatura en la superficie de Venus es extremadamente alta, alcanzando los 460 grados Celsius en promedio. Esto se debe a su densa atmósfera de dióxido de carbono que atrapa el calor solar.",
+            "A diferencia de la Tierra, la superficie de Venus está cubierta de rocas volcánicas y polvo, y su atmósfera densa y extremadamente caliente hace que sea muy hostil para la vida tal como la conocemos."
+        ]
+    },	
+	
+	{
+        "tag": "tierra_masa",
+        "patterns": [
+            "¿Cuál es la masa de la Tierra?",
+            "¿Qué tanto pesa la Tierra?",
+            "¿Cuántos kilogramos pesa la Tierra?",
+            "¿Cuánto mide la masa de la Tierra?",
+            "¿Cuánto es la masa de nuestro planeta?",
+            "¿Cuál es el peso de la Tierra?",
+            "¿Cuánto pesa nuestro planeta?",
+            "¿Cuánta masa tiene la Tierra?",
+            "¿Cuánto es el peso de la Tierra en kilogramos?",
+            "¿Cuántos kilos pesa nuestro planeta?"
+        ],
+        "responses": [
+            "La masa de la Tierra es de aproximadamente 5.97 x 10 elevado a las 24 kg.",
+            "La Tierra pesa alrededor de 5.97 × 10 elevado a las 24 kg.",
+            "La Tierra tiene una masa de aproximadamente 5.97 x 10 elevado a las 24 kg.",
+            "La masa de nuestro planeta es de aproximadamente 5.97 × 10 elevado a las 24 kg.",
+            "El peso de la Tierra es de alrededor de 5.97 x 10 elevado a las 24 kg.",
+            "Nuestro planeta tiene una masa de aproximadamente 5.97 x 10 elevado a las 24kg.",
+            "La Tierra tiene una masa de 5.97 x 10 elevado a las 24 kg.",
+            "El peso de la Tierra es de 5.97 x 10 elevado a las 24 kg.",
+            "La masa de nuestro planeta es de 5.97 x 10 elevado a las 24 kg.",
+            "La Tierra pesa 5.97 x 10 elevado a las 24 kg."
+        ]
+    },
+	{
+            "tag": "tierra_tamaño",
+            "patterns": [
+                "¿Cuál es el tamaño de la Tierra?",
+                "¿Qué diámetro tiene la Tierra?",
+                "¿Cuál es el radio de la Tierra?",
+                "¿Qué tamaño tiene la Tierra en comparación con otros planetas?",
+                "¿Cuántos kilómetros mide la Tierra?",
+                "¿Cuál es el perímetro de la Tierra?",
+                "¿Qué tamaño tiene la Tierra en relación al Sol?",
+                "¿Cuánto pesa la Tierra?",
+                "¿Qué volumen tiene la Tierra?",
+                "¿Cuál es la densidad de la Tierra?"
+            ],
+            "responses": [
+                "El diámetro de la Tierra es de aproximadamente 12,742 kilómetros.",
+                "El radio de la Tierra es de aproximadamente 6,371 kilómetros.",
+                "El tamaño de la Tierra es mediano en comparación con otros planetas del Sistema Solar.",
+                "La Tierra tiene una circunferencia de aproximadamente 40,075 kilómetros.",
+                "La Tierra tiene un volumen de aproximadamente 1 billón de kilómetros cúbicos.",
+                "La densidad de la Tierra es de aproximadamente 5.5 gramos por centímetro cúbico.",
+                "El tamaño de la Tierra en relación al Sol es pequeño, ya que el Sol es mucho más grande que la Tierra.",
+                "El peso de la Tierra es de aproximadamente 5.97 × 10^24 kilogramos.",
+                "La Tierra es el quinto planeta más grande del Sistema Solar.",
+                "La Tierra tiene una superficie total de aproximadamente 510.1 millones de kilómetros cuadrados."
+            ]
+    },
+	{
+        "tag": "tierra_lunas",
+        "patterns": [
+            "¿Cuántas lunas tiene la Tierra?",
+            "¿Cómo se llaman las lunas de la Tierra?",
+            "¿Cuál es la luna más grande de la Tierra?",
+            "¿Quién descubrió la primera luna de la Tierra?",
+            "¿Cómo afecta la Luna a la Tierra?",
+            "¿Cuál es la función de las lunas de la Tierra?",
+            "¿Hay vida en las lunas de la Tierra?",
+            "¿Por qué no podemos ver las lunas de la Tierra a simple vista?",
+            "¿Qué características tienen las lunas de la Tierra?",
+            "¿Hay planes para enviar misiones a las lunas de la Tierra?"
+        ],
+        "responses": [
+            "La Tierra tiene una sola luna natural llamada Luna.",
+            "La luna de la Tierra se llama Luna.",
+            "La Luna es la luna más grande de la Tierra.",
+            "La primera luna de la Tierra fue descubierta por Galileo Galilei en 1610.",
+            "La Luna tiene varios efectos en la Tierra, incluyendo las mareas y la estabilización del eje de rotación de la Tierra.",
+            "Las lunas de la Tierra no tienen una función específica conocida, pero han sido objeto de interés científico y exploración espacial.",
+            "No se sabe si hay vida en las lunas de la Tierra, aunque algunas teorías sugieren que podrían tener las condiciones adecuadas para albergar vida en el subsuelo.",
+            "Las lunas de la Tierra son difíciles de ver a simple vista debido a su tamaño y brillo relativamente pequeños en comparación con la Luna.",
+            "Las lunas de la Tierra son relativamente pequeñas y tienen superficies rocosas o heladas, dependiendo de su distancia al Sol.",
+            "Actualmente no hay planes para enviar misiones específicas a las lunas de la Tierra, pero se han llevado a cabo misiones de investigación en la Luna."
+        ]
+    },
+	{
+      "tag": "tierra_atmosfera",
+      "patterns": [
+        "¿Cuál es la composición de la atmósfera de la Tierra?",
+        "¿Qué gases conforman la atmósfera de la Tierra?",
+        "¿Cómo se mantiene la atmósfera de la Tierra?",
+        "¿Qué es la capa de ozono?",
+        "¿Cómo afectan los gases de efecto invernadero a la atmósfera?",
+        "¿Qué es el smog?",
+        "¿Por qué la atmósfera es importante para la vida en la Tierra?",
+        "¿Cuáles son las capas de la atmósfera?",
+        "¿Cómo se divide la atmósfera de la Tierra?",
+        "¿Cómo se miden las condiciones atmosféricas?"
+      ],
+      "responses": [
+        "La atmósfera de la Tierra está compuesta principalmente por nitrógeno (78%), oxígeno (21%), argón (0,9%) y dióxido de carbono (0,04%), además de trazas de otros gases.",
+        "Los gases principales que conforman la atmósfera de la Tierra son nitrógeno, oxígeno y argón.",
+        "La atmósfera de la Tierra se mantiene en su lugar debido a la gravedad.",
+        "La capa de ozono es una capa de la atmósfera que protege la Tierra de los rayos ultravioleta del sol.",
+        "Los gases de efecto invernadero atrapan el calor en la atmósfera, lo que puede contribuir al cambio climático.",
+        "El smog es una mezcla de humo y niebla contaminados con partículas tóxicas y gases que pueden ser dañinos para la salud.",
+        "La atmósfera es importante para la vida en la Tierra porque nos protege de la radiación solar, mantiene la temperatura adecuada y proporciona oxígeno para respirar.",
+        "La atmósfera de la Tierra se divide en cinco capas principales: la troposfera, la estratosfera, la mesosfera, la termosfera y la exosfera.",
+        "La atmósfera de la Tierra se divide en dos regiones principales: la homosfera, que se extiende desde la superficie de la Tierra hasta una altitud de 80-100 km, y la heterosfera, que se extiende desde la homosfera hasta el límite del espacio.",
+        "Las condiciones atmosféricas se miden con instrumentos como termómetros, barómetros, anemómetros y pluviómetros."
+      ]
+    },
+	{
+      "tag": "tierra_color",
+      "patterns": [
+        "¿De qué color es la Tierra?",
+        "¿Cómo es el color de la Tierra?",
+        "¿Qué tonalidad tiene el planeta Tierra?",
+        "¿Por qué la Tierra se ve azul desde el espacio?",
+        "¿Es la Tierra el único planeta de color azul en el Sistema Solar?",
+        "¿Qué factores influyen en el color de la Tierra?",
+        "¿Cómo influye la atmósfera terrestre en el color de la Tierra?",
+        "¿Cuál es la causa principal del color azul de la Tierra?",
+        "¿El color de la Tierra ha cambiado a lo largo del tiempo?",
+        "¿Cómo ha sido representado el color de la Tierra en diferentes culturas?"
+      ],
+      "responses": [
+        "La Tierra es conocida por su tonalidad azul.",
+        "El color predominante del planeta Tierra es el azul.",
+        "El color de la Tierra es una mezcla de tonalidades verdes, marrones y azules.",
+        "La Tierra se ve azul desde el espacio debido a la reflexión de la luz solar en los océanos y la atmósfera.",
+        "La Tierra es el único planeta de color azul en el Sistema Solar que se conoce actualmente.",
+        "El color de la Tierra se debe a una combinación de factores, como la composición de la atmósfera, la presencia de agua líquida en su superficie y la posición del planeta en relación al Sol.",
+        "La atmósfera terrestre juega un papel importante en la tonalidad del color de la Tierra, ya que es capaz de filtrar ciertas longitudes de onda de luz y reflejar otras.",
+        "La principal causa del color azul de la Tierra es la presencia de moléculas de aire en la atmósfera que dispersan la luz solar en todas las direcciones.",
+        "A lo largo del tiempo, la Tierra ha experimentado cambios en su color debido a variaciones en la atmósfera y otros factores.",
+        "El color de la Tierra ha sido representado de diferentes maneras en diferentes culturas, desde el azul hasta el verde o el marrón, dependiendo de la región y el contexto cultural."
+      ]
+    },
+	{
+        "tag": "tierra_rotacion",
+        "patterns": [
+            "¿Cuántas horas dura un día en la Tierra?",
+            "¿Cuál es la velocidad de rotación de la Tierra?",
+            "¿Por qué la Tierra gira sobre su eje?",
+            "¿Cómo se llama el movimiento de rotación de la Tierra?",
+            "¿Cuál es la inclinación del eje de la Tierra?",
+            "¿Cómo afecta la rotación de la Tierra al clima?",
+            "¿Qué es la precesión de la Tierra?",
+            "¿Cómo afecta la rotación de la Tierra al día y la noche?",
+            "¿Cómo afecta la rotación de la Tierra al campo gravitatorio?",
+            "¿Cómo se mide la velocidad de rotación de la Tierra?"
+        ],
+        "responses": [
+            "Un día en la Tierra dura aproximadamente 24 horas.",
+            "La velocidad de rotación de la Tierra es de aproximadamente 1670 km/h en el ecuador.",
+            "La Tierra gira sobre su eje debido a la conservación del momento angular.",
+            "El movimiento de rotación de la Tierra se llama rotación diurna.",
+            "El eje de la Tierra está inclinado 23.5 grados respecto al plano de la eclíptica.",
+            "La rotación de la Tierra afecta al clima al generar diferencias de temperatura y presión en la atmósfera y en los océanos.",
+            "La precesión de la Tierra es un movimiento cíclico que describe la oscilación del eje terrestre en el espacio.",
+            "La rotación de la Tierra es responsable de la alternancia del día y la noche.",
+            "La rotación de la Tierra genera un campo gravitatorio que depende de la distancia al centro de la Tierra y de la velocidad de rotación.",
+            "La velocidad de rotación de la Tierra se mide mediante observaciones astronómicas o mediante satélites artificiales."
+        ]
+    },
+	{
+      "tag": "tierra_orbita",
+      "patterns": [
+        "¿Cuánto tiempo tarda la Tierra en dar una vuelta al sol?",
+        "¿Cuál es el periodo orbital de la Tierra?",
+        "¿Cuál es el tiempo que tarda la Tierra en completar una órbita?",
+        "¿Cuántos días tarda la Tierra en dar una vuelta completa alrededor del sol?",
+        "¿Cuántos días tiene el año terrestre?",
+        "¿Cuál es la duración del año terrestre?",
+        "¿Cuántos días tiene un año en la Tierra?",
+        "¿Cómo se llama la trayectoria que describe la Tierra alrededor del Sol?",
+        "¿Cuál es la forma de la órbita terrestre?",
+        "¿Por qué la órbita de la Tierra es elíptica?"
+      ],
+      "responses": [
+        "La Tierra tarda aproximadamente 365.25 días en dar una vuelta al sol.",
+        "El periodo orbital de la Tierra es de aproximadamente 365.25 días.",
+        "La Tierra tarda alrededor de 365.25 días en completar una órbita alrededor del sol.",
+        "La Tierra tarda 365.25 días en dar una vuelta completa alrededor del sol.",
+        "El año terrestre tiene una duración de aproximadamente 365.25 días.",
+        "El año terrestre dura alrededor de 365.25 días.",
+        "Un año en la Tierra tiene 365.25 días.",
+        "La trayectoria que describe la Tierra alrededor del Sol se llama órbita.",
+        "La órbita terrestre tiene forma elíptica.",
+        "La órbita de la Tierra es elíptica debido a la influencia gravitacional de otros cuerpos celestes como la Luna y los planetas."
+      ]
+    },
+	{
+            "tag": "tierra_superficie",
+            "patterns": [
+                "¿Cómo es la superficie de la Tierra?",
+                "¿Qué tipo de terreno tiene la Tierra?",
+                "¿Cuál es la composición de la superficie de la Tierra?",
+                "¿Qué características tiene la superficie de la Tierra?",
+                "¿Cómo está formada la superficie de la Tierra?",
+                "¿Qué podemos encontrar en la superficie de la Tierra?",
+                "¿Qué tipos de suelo hay en la superficie de la Tierra?",
+                "¿Cómo se divide la superficie de la Tierra?",
+                "¿Cómo ha evolucionado la superficie de la Tierra?",
+                "¿Cuáles son las principales características de la superficie de la Tierra?"
+            ],
+            "responses": [
+                "La superficie de la Tierra es muy diversa, incluyendo océanos, continentes, montañas, llanuras, desiertos y glaciares.",
+                "El terreno de la Tierra está compuesto por una mezcla de rocas ígneas, sedimentarias y metamórficas.",
+                "La superficie de la Tierra está compuesta por una mezcla de elementos como oxígeno, silicio, aluminio, hierro, calcio y sodio.",
+                "La superficie de la Tierra es dinámica y está en constante cambio debido a procesos geológicos como la tectónica de placas, la erosión y la actividad volcánica.",
+                "La superficie de la Tierra se divide en dos grandes áreas: tierra firme y océanos.",
+                "En la superficie de la Tierra podemos encontrar una gran diversidad de formas de relieve, como montañas, valles, llanuras, mesetas y cañones.",
+                "La superficie de la Tierra está cubierta en su mayoría por agua, siendo los océanos la mayor parte de la superficie del planeta.",
+                "La composición del suelo de la Tierra varía dependiendo de la región, pero en general se puede encontrar arena, arcilla, limo, y materia orgánica.",
+                "La superficie de la Tierra ha evolucionado a lo largo de millones de años debido a factores como la tectónica de placas y el impacto de meteoritos.",
+                "Entre las principales características de la superficie de la Tierra se encuentran la presencia de agua, la diversidad de formas de relieve, la existencia de vida y su constante cambio."
+            ]
+    },
+	{
+      "tag": "tierra_misiones",
+      "patterns": [
+        "¿Cuáles son las misiones espaciales más importantes que se han enviado a la Tierra?",
+        "¿Qué misiones espaciales se han enviado a la Tierra?",
+        "¿Cuántas misiones espaciales se han enviado a la Tierra?",
+        "¿Cuál fue la primera misión espacial a la Tierra?",
+        "¿Qué agencia espacial envió la primera misión espacial a la Tierra?",
+        "¿Cuál ha sido la misión espacial más reciente a la Tierra?",
+        "¿Qué información han recolectado las misiones espaciales a la Tierra?",
+        "¿Qué tipo de tecnología se utiliza en las misiones espaciales a la Tierra?",
+        "¿Cómo han evolucionado las misiones espaciales a la Tierra?",
+        "¿Cuál es el objetivo de las misiones espaciales a la Tierra?"
+      ],
+      "responses": [
+        "Algunas de las misiones espaciales más importantes que se han enviado a la Tierra incluyen el programa Apollo de la NASA, la misión Viking a Marte, la misión Voyager al sistema solar exterior, el telescopio espacial Hubble y el rover Perseverance de la NASA.",
+        "A lo largo de los años, se han enviado muchas misiones espaciales a la Tierra, desde misiones tripuladas como el programa Apollo hasta misiones no tripuladas como el telescopio espacial Hubble y el rover Perseverance de la NASA.",
+        "Se han enviado muchas misiones espaciales a la Tierra a lo largo de los años, pero no hay un número exacto debido a la variedad de misiones que se han llevado a cabo.",
+        "La primera misión espacial a la Tierra fue el satélite soviético Sputnik 1, lanzado en 1957.",
+        "La primera misión espacial a la Tierra fue realizada por la agencia espacial soviética.",
+        "La misión espacial más reciente a la Tierra es el rover Perseverance de la NASA, que se posó en la superficie marciana en febrero de 2021.",
+        "Las misiones espaciales a la Tierra han recolectado una gran cantidad de información sobre el planeta, incluyendo datos sobre la atmósfera, la geología, el clima y la vida en la Tierra.",
+        "Las misiones espaciales a la Tierra utilizan una variedad de tecnologías, desde cohetes y satélites hasta rovers y telescopios.",
+        "Las misiones espaciales a la Tierra han evolucionado a lo largo de los años para incluir tecnologías más avanzadas y misiones más ambiciosas.",
+        "El objetivo de las misiones espaciales a la Tierra es explorar y recolectar información sobre nuestro planeta, desde la geología y el clima hasta la vida en la Tierra."
+      ]
+    },
+    {
+            "tag": "tierra_descubrimiento",
+            "patterns": [
+                "¿Cómo se descubrió la Tierra?",
+                "¿Quién descubrió la Tierra?",
+                "¿Cuándo se descubrió la Tierra?",
+                "¿Cómo se dieron cuenta de que la Tierra existía?",
+                "¿Qué civilización descubrió primero la Tierra?",
+                "¿Fue la Tierra descubierta por accidente o intencionalmente?",
+                "¿Cómo se sabía de la existencia de la Tierra antes de la era espacial?",
+                "¿Cuál fue el primer avistamiento documentado de la Tierra desde el espacio?",
+                "¿Quiénes fueron los primeros astronautas en ver la Tierra desde el espacio?",
+                "¿Cómo ha evolucionado nuestra comprensión de la Tierra desde su descubrimiento?"
+            ],
+            "responses": [
+                "No se puede hablar de un descubrimiento de la Tierra, ya que es nuestro planeta de origen y ha sido conocido por la humanidad desde tiempos prehistóricos.",
+                "La Tierra no fue descubierta, sino que ha sido conocida por la humanidad desde tiempos prehistóricos.",
+                "La Tierra no fue descubierta en un momento específico, ya que ha sido conocida por la humanidad desde tiempos prehistóricos.",
+                "La Tierra no fue descubierta por una civilización en particular, ya que ha sido conocida por la humanidad desde tiempos prehistóricos.",
+                "La Tierra siempre ha sido conocida por la humanidad, aunque el conocimiento que se tenía sobre ella ha ido evolucionando con el tiempo.",
+                "Los antiguos tenían un conocimiento limitado sobre la Tierra, pero sabían que era un objeto celeste y que era habitable.",
+                "La idea de que la Tierra es redonda se remonta a la antigua Grecia, aunque no fue hasta la Edad Media que se estableció la idea de que es una esfera.",
+                "Uno de los primeros científicos en estudiar la Tierra fue el filósofo griego Tales de Mileto, quien propuso que la Tierra flota en agua.",
+                "El conocimiento sobre la Tierra ha evolucionado con el tiempo gracias a la investigación científica y la exploración espacial.",
+                "Entre los descubrimientos más importantes sobre la Tierra se encuentran su forma esférica, su edad estimada y su composición química."
+            ]
+	},	
+	{
+        "tag": "marte_masa",
+        "patterns": [
+            "¿Cuál es la masa de Marte?",
+            "¿Qué tan pesado es Marte?",
+            "Masa de Marte",
+            "¿Marte es más pesado que la Tierra?",
+            "¿Cuánto pesa Marte?",
+            "Peso de Marte",
+            "¿Sabes cuánta masa tiene Marte?",
+            "¿Marte tiene más masa que la Luna?",
+            "¿Cuántas veces es más pesado la Tierra que Marte?",
+            "¿La masa de Marte es mayor o menor que la de Venus?"
+        ],
+        "responses": [
+            "La masa de Marte es de aproximadamente 6.39 × 10²³ kg.",
+            "Marte tiene una masa de 6.39 × 10²³ kg.",
+            "Marte es menos masivo que la Tierra, pero más masivo que la Luna. Su masa es de aproximadamente 6.39 × 10²³ kg.",
+            "La masa de Marte es alrededor del 11% de la masa de la Tierra, es decir, Marte es alrededor de 0.107 veces la masa de la Tierra.",
+            "La masa de Marte es mayor que la de la Luna, que es de aproximadamente 7.342 × 10²² kg.",
+            "La masa de Marte es menor que la de Venus, que es de aproximadamente 4.87 × 10²⁴ kg.",
+            "Marte es un poco más del 10% de la masa de la Tierra, por lo que es bastante menos masivo que la Tierra.",
+            "Sí, Marte tiene una masa mayor que la de la Luna.",
+            "La Tierra es aproximadamente 10 veces más masiva que Marte.",
+            "La masa de Marte es menor que la de Venus, que es el planeta más masivo después de Júpiter y Saturno."
+        ]
+    },
+	{
+        "tag": "marte_tamaño",
+        "patterns": [
+            "¿Cuál es el tamaño de Marte?",
+            "Dime el tamaño de Marte",
+            "Dimensiones de Marte",
+            "¿Cuánto mide Marte?",
+            "¿Cuál es el diámetro de Marte?",
+            "¿Qué tan grande es Marte?",
+            "¿Cuál es el radio de Marte?",
+            "¿Cuántos kilómetros tiene de diámetro Marte?",
+            "Háblame sobre el tamaño de Marte",
+            "Información sobre las dimensiones de Marte"
+        ],
+        "responses": [
+            "Marte tiene un diámetro de aproximadamente 6.779 kilómetros",
+            "El radio de Marte es de unos 3.390 kilómetros",
+            "Marte es aproximadamente la mitad del tamaño de la Tierra, con un diámetro de 6.779 kilómetros",
+            "El diámetro de Marte es de 6.779 kilómetros, aproximadamente la mitad del tamaño de la Tierra",
+            "El diámetro de Marte es de 6.779 kilómetros",
+            "Marte tiene un radio de aproximadamente 3.390 kilómetros",
+            "Marte es el cuarto planeta más grande del sistema solar y tiene un diámetro de 6.779 kilómetros",
+            "El diámetro ecuatorial de Marte es de 6.792 kilómetros, mientras que el diámetro polar es de 6.752 kilómetros",
+            "El tamaño de Marte es aproximadamente la mitad del tamaño de la Tierra, con un diámetro de 6.779 kilómetros",
+            "Marte tiene un diámetro de aproximadamente 6.779 kilómetros y es el cuarto planeta más grande del sistema solar"
+        ]
+    },
+	{
+      "tag": "marte_lunas",
+      "patterns": [
+        "¿Cuántas lunas tiene Marte?",
+        "¿Existe alguna luna en Marte?",
+        "¿Qué satélites naturales tiene Marte?",
+        "¿Hay alguna luna en Marte?",
+        "¿Cuántos satélites naturales tiene Marte?",
+        "¿Existen satélites en Marte?",
+        "¿Hay satélites naturales en Marte?",
+        "¿Cuántas lunas tiene el planeta rojo?",
+        "¿Cuáles son las lunas de Marte?",
+        "¿Cómo se llaman las lunas de Marte?"
+      ],
+      "responses": [
+        "Marte tiene dos lunas conocidas, Fobos y Deimos.",
+        "Sí, Marte tiene dos lunas conocidas como Fobos y Deimos.",
+        "Los satélites naturales de Marte son dos: Fobos y Deimos.",
+        "Así es, Marte tiene dos lunas conocidas como Fobos y Deimos.",
+        "Marte cuenta con dos satélites naturales conocidos, Fobos y Deimos.",
+        "Sí, Marte tiene dos satélites naturales conocidos: Fobos y Deimos.",
+        "Las lunas de Marte son Fobos y Deimos.",
+        "Los nombres de las dos lunas de Marte son Fobos y Deimos.",
+        "Marte tiene dos lunas conocidas llamadas Fobos y Deimos.",
+        "Fobos y Deimos son las dos lunas conocidas del planeta rojo, Marte."
+      ]
+    },
+	{
+      "tag": "marte_atmosfera",
+      "patterns": [
+        "¿Tiene atmósfera Marte?",
+        "¿Cuál es la composición de la atmósfera de Marte?",
+        "¿Qué gases conforman la atmósfera de Marte?",
+        "¿Cómo es la atmósfera de Marte?",
+        "¿Cuál es la presión atmosférica en Marte?",
+        "¿Puede haber vida en la atmósfera de Marte?",
+        "¿Por qué la atmósfera de Marte es tan delgada?",
+        "¿Qué es el efecto invernadero en la atmósfera de Marte?",
+        "¿Qué es el viento en la atmósfera de Marte?",
+        "¿Cómo afecta la atmósfera de Marte a las misiones espaciales?"
+      ],
+      "responses": [
+        "Sí, Marte tiene atmósfera, pero es muy delgada en comparación con la de la Tierra.",
+        "La atmósfera de Marte está compuesta principalmente de dióxido de carbono, nitrógeno y argón.",
+        "Los principales gases que conforman la atmósfera de Marte son el dióxido de carbono (CO2), el nitrógeno (N2) y el argón (Ar).",
+        "La atmósfera de Marte es muy delgada y tiene una presión atmosférica promedio de 0.6% en comparación con la de la Tierra.",
+        "Debido a que la atmósfera de Marte es muy delgada y no tiene suficiente oxígeno, no es probable que haya vida en ella.",
+        "La atmósfera de Marte es delgada debido a que el planeta no tiene un campo magnético global que proteja la atmósfera de la erosión solar.",
+        "El efecto invernadero en la atmósfera de Marte es responsable de mantener la temperatura en el planeta, aunque no es tan fuerte como en la Tierra.",
+        "El viento en la atmósfera de Marte es causado por la diferencia de temperatura entre el día y la noche.",
+        "La atmósfera delgada de Marte presenta desafíos para las misiones espaciales debido a la falta de aire para frenar y la mayor exposición a la radiación solar.",
+        "La atmósfera de Marte también puede afectar la forma en que los vehículos y los rovers aterrizan en la superficie del planeta."
+      ]
+    },
+	{
+      "tag": "marte_color",
+      "patterns": [
+        "¿De qué color es Marte?",
+        "¿Cómo es el color de Marte?",
+        "¿Qué tonalidad tiene la superficie de Marte?",
+        "¿Por qué es Marte rojo?",
+        "¿Es cierto que Marte es rojo?",
+        "¿Qué hace que Marte tenga ese color?",
+        "¿Es el color rojo de Marte uniforme?",
+        "¿Cómo se llama el material que da color a Marte?",
+        "¿Qué otros colores se pueden encontrar en Marte?",
+        "¿Existen variaciones en el color de Marte?"
+      ],
+      "responses": [
+        "Marte es conocido como el Planeta Rojo debido a la presencia de óxido de hierro en su superficie, que le da un color rojizo característico.",
+        "El color de Marte es rojizo debido a la presencia de óxido de hierro en su superficie.",
+        "El tono predominante en la superficie de Marte es rojizo debido a la presencia de óxido de hierro.",
+        "Marte es rojo debido a la presencia de óxido de hierro en su superficie.",
+        "Sí, Marte es conocido como el Planeta Rojo debido a la presencia de óxido de hierro en su superficie.",
+        "El color rojizo de Marte se debe a la presencia de óxido de hierro en su superficie.",
+        "El color rojo de Marte no es uniforme, ya que existen variaciones en la cantidad de óxido de hierro presente en diferentes áreas de su superficie.",
+        "El material que da color rojo a Marte es el óxido de hierro.",
+        "Además del rojo, en la superficie de Marte también se pueden encontrar tonalidades de amarillo, marrón y gris.",
+        "Sí, existen variaciones en el color de Marte debido a las diferentes concentraciones de óxido de hierro en su superficie."
+      ]
+    },
+	
+	{
+      "tag": "marte_rotacion",
+      "patterns": [
+        "¿Cuánto tarda Marte en completar una rotación?",
+        "¿Cuántas horas dura un día en Marte?",
+        "¿Cuántas horas dura la rotación de Marte?",
+        "¿Marte gira en el mismo sentido que la Tierra?",
+        "¿Marte tiene una rotación lenta o rápida?",
+        "¿Por qué la duración del día en Marte es diferente a la de la Tierra?",
+        "¿Marte tiene una rotación retrógrada?",
+        "¿Cuánto tiempo dura una temporada en Marte?",
+        "¿Cómo afecta la rotación de Marte a su clima?",
+        "¿Cómo se compara la rotación de Marte con la de otros planetas?"
+      ],
+      "responses": [
+        "Marte tarda alrededor de 24.6 horas terrestres en completar una rotación.",
+        "Un día marciano dura aproximadamente 24 horas y 39 minutos.",
+        "La rotación de Marte dura alrededor de 24.6 horas terrestres.",
+        "No, Marte gira en dirección opuesta a la Tierra, en una rotación retrógrada.",
+        "Marte tiene una rotación relativamente lenta, más lenta que la de la Tierra.",
+        "El día marciano es más largo que el terrestre debido a la velocidad de rotación de Marte y su posición en el sistema solar.",
+        "Sí, Marte tiene una rotación retrógrada, lo que significa que gira en la dirección opuesta a la mayoría de los planetas.",
+        "Una temporada en Marte dura alrededor de 6.8 meses terrestres.",
+        "La rotación de Marte afecta significativamente a su clima, especialmente a los vientos y la formación de tormentas.",
+        "Marte tiene una rotación más lenta que la Tierra, pero más rápida que algunos otros planetas como Venus."
+      ]
+    },
+	{
+      "tag": "marte_orbita",
+      "patterns": [
+        "¿Cuál es la distancia de Marte al Sol?",
+        "¿Cuánto tiempo tarda Marte en orbitar el Sol?",
+        "¿Por qué la órbita de Marte es elíptica?",
+        "¿Cuál es el periodo orbital de Marte?",
+        "¿A qué distancia está Marte de la Tierra en su punto más cercano?",
+        "¿Cuál es la inclinación de la órbita de Marte?",
+        "¿Cuál es el radio de la órbita de Marte?",
+        "¿Qué es una oposición de Marte?",
+        "¿Cuántos días dura un año en Marte?",
+        "¿Cuántos satélites naturales tiene Marte?"
+      ],
+      "responses": [
+        "La distancia media de Marte al Sol es de aproximadamente 227.9 millones de kilómetros.",
+        "Marte tarda alrededor de 687 días terrestres, o 1.88 años, en orbitar el Sol.",
+        "La órbita de Marte es elíptica debido a la influencia gravitacional de otros planetas y objetos en el sistema solar.",
+        "El periodo orbital de Marte es de aproximadamente 686.98 días terrestres.",
+        "La distancia entre Marte y la Tierra en su punto más cercano es de aproximadamente 56 millones de kilómetros.",
+        "La inclinación de la órbita de Marte es de alrededor de 1.85 grados.",
+        "El radio medio de la órbita de Marte es de aproximadamente 227.9 millones de kilómetros.",
+        "Una oposición de Marte ocurre cuando Marte está en el lado opuesto del Sol en relación a la Tierra, lo que significa que está en su punto más cercano a la Tierra y es más fácil de observar.",
+        "Un año en Marte dura alrededor de 687 días terrestres.",
+        "Marte tiene dos satélites naturales, Fobos y Deimos."
+      ]
+    },
+	{
+        "tag": "marte_superficie",
+        "patterns": [
+            "¿Cómo es la superficie de Marte?",
+            "¿Qué aspecto tiene la superficie de Marte?",
+            "Describa la superficie de Marte",
+            "¿Puede hablar de la topografía de Marte?",
+            "¿Cuáles son las características de la superficie de Marte?",
+            "¿Cómo es el terreno en Marte?",
+            "Hábleme sobre la geología de Marte",
+            "¿Qué podemos encontrar en la superficie de Marte?",
+            "¿Cuáles son las formaciones más destacadas en la superficie de Marte?",
+            "¿Cómo se compararía la superficie de Marte con la de la Tierra?"
+        ],
+        "responses": [
+            "La superficie de Marte es rocosa y desértica, con muchas áreas de terreno plano y algunas formaciones geológicas distintivas, como los cráteres de impacto, las montañas y los cañones. La topografía varía desde los valles y llanuras relativamente planas de los hemisferios norte y sur hasta los terrenos más elevados y agrestes del ecuador marciano.",
+            "Marte tiene una superficie rocosa y árida que está cubierta de polvo y arena. También cuenta con numerosos cráteres, montañas y valles, incluido el Monte Olimpo, que es el volcán más grande conocido en el sistema solar.",
+            "La superficie de Marte está cubierta de cráteres de impacto, volcanes, dunas de arena y una red extensa de cañones profundos y valles anchos. La mayor parte del planeta tiene una apariencia rocosa y estéril, aunque hay algunas áreas con terrenos más suaves y llanos.",
+            "La topografía de Marte es muy variada e incluye regiones de tierras altas, llanuras y cañones profundos. Algunas de las formaciones geológicas más notables incluyen el cráter de impacto Hellas, el cañón Valles Marineris y las llanuras del norte y sur.",
+            "La superficie de Marte está llena de cráteres de impacto, montañas, cañones y otras formaciones geológicas interesantes. La mayoría del terreno es árido y rocoso, pero hay algunas áreas con terreno más suave y llano.",
+            "Marte es un planeta rocoso y árido con una superficie plagada de cráteres de impacto, montañas, cañones y otras formaciones geológicas. También hay áreas con terrenos más suaves y llanos, como las llanuras del norte y sur.",
+            "La superficie de Marte es muy rocosa y está cubierta de cráteres de impacto, montañas y cañones profundos. El planeta también tiene una gran cantidad de depresiones y valles, incluido el gran cañón Valles Marineris. En general, la topografía de Marte es muy variada y presenta muchas formaciones geológicas interesantes.",
+			"En la superficie de Marte se pueden encontrar montañas, cañones, cráteres, llanuras, dunas, depósitos de hielo y minerales, entre otros elementos.",
+			"Entre las formaciones más destacadas de la superficie de Marte se encuentran el monte Olimpo, el cañón Valles Marineris, la llanura de Acidalia Planitia, el cráter Gale y las dunas de arena del polo norte.",
+			"En general, la superficie de Marte se caracteriza por ser más seca, fría y árida que la de la Tierra. Mientras que la Tierra cuenta con una gran variedad de formas de relieve y ecosistemas, Marte tiene una geografía más uniforme y limitada en cuanto a la presencia de agua y vida."
+         ]
+    },
+	{
+      "tag": "marte_misiones",
+      "patterns": [
+        "¿Cuántas misiones se han enviado a Marte?",
+        "¿Qué países han enviado misiones a Marte?",
+        "¿Cuáles han sido las misiones más exitosas a Marte?",
+        "¿Qué tipos de misiones se han enviado a Marte?",
+        "¿En qué año se lanzó la primera misión a Marte?",
+        "¿Cuándo fue la última misión exitosa a Marte?",
+        "¿Cuál fue la misión más reciente a Marte?",
+        "¿Qué descubrimientos importantes se han hecho gracias a las misiones a Marte?",
+        "¿Hay planes para futuras misiones a Marte?",
+        "¿Cuál ha sido la misión más costosa a Marte?"
+      ],
+      "responses": [
+        "Hasta la fecha se han enviado más de 50 misiones a Marte, incluyendo orbitadores, rovers y módulos de aterrizaje.",
+        "Varios países han enviado misiones a Marte, incluyendo Estados Unidos, Rusia, Europa (a través de la Agencia Espacial Europea) y la India.",
+        "Las misiones más exitosas a Marte han sido aquellas que han logrado aterrizar con éxito y enviar datos y muestras del planeta, como la misión Mars Pathfinder de la NASA y el rover Curiosity.",
+        "Se han enviado varios tipos de misiones a Marte, incluyendo orbitadores, rovers y módulos de aterrizaje.",
+        "La primera misión a Marte fue la Mars 1 de la Unión Soviética en 1962, aunque no tuvo éxito. La primera misión exitosa a Marte fue la Mariner 4 de Estados Unidos en 1965.",
+        "La última misión exitosa a Marte fue la misión Tianwen-1 de China, que llegó al planeta en febrero de 2021.",
+        "La misión más reciente a Marte fue la misión Mars 2020 de la NASA, que incluye el rover Perseverance y el helicóptero Ingenuity.",
+        "Las misiones a Marte han permitido descubrir evidencia de agua líquida en el pasado del planeta, identificar elementos clave para la vida, y estudiar su clima y geología.",
+        "Sí, hay varios planes para futuras misiones a Marte, incluyendo la misión Mars Sample Return de la NASA y la misión ExoMars de la Agencia Espacial Europea y Roscosmos.",
+        "La misión más costosa a Marte hasta la fecha ha sido la misión Mars Science Laboratory de la NASA, que incluye el rover Curiosity. Se estima que su costo total es de alrededor de 2.5 mil millones de dólares."
+      ]
+    },
+	{
+        "tag": "marte_descubrimiento",
+        "patterns": [
+            "¿Quién descubrió Marte?",
+            "¿Cómo fue descubierto Marte?",
+            "¿Cuándo se descubrió Marte?",
+            "¿Por qué se dice que Marte fue descubierto por los antiguos?",
+            "¿Qué civilizaciones antiguas observaron Marte?",
+            "¿Cómo llamaban los antiguos a Marte?",
+            "¿Qué descubrimientos importantes se han hecho sobre Marte en los últimos años?",
+            "¿Cuál fue la primera nave en aterrizar en Marte?",
+            "¿Qué agencia espacial envió la primera nave a Marte?",
+            "¿Qué descubrimientos se hicieron en la primera misión a Marte?"
+        ],
+        "responses": [
+            "Marte fue descubierto por los antiguos, por lo que no hay un descubridor específico. Sin embargo, se cree que Galileo Galilei fue el primer científico en observar Marte a través de un telescopio en 1609.",
+            "Marte ha sido conocido desde la antigüedad, pero fue hasta la invención del telescopio que se pudo observar con más detalle.",
+            "La fecha exacta del descubrimiento de Marte es desconocida, pero se cree que fue hace unos 4,000 años por los antiguos astrónomos de Mesopotamia.",
+            "Los antiguos creían que los movimientos de los planetas estaban relacionados con la voluntad de los dioses, por lo que Marte era considerado un objeto divino y por lo tanto, su descubrimiento se atribuye a los antiguos.",
+            "Los antiguos egipcios, babilonios, chinos y griegos fueron algunas de las civilizaciones que observaron Marte.",
+            "Los antiguos griegos llamaban a Marte 'Ares', en honor al dios de la guerra.",
+            "En los últimos años se han descubierto ríos secos, lagos y depósitos de hielo en Marte, lo que sugiere que podría haber habido vida en el planeta en algún momento.",
+            "La primera nave en aterrizar en Marte fue la Viking 1 en 1976.",
+            "La NASA fue la agencia espacial que envió la primera nave a Marte.",
+            "En la primera misión a Marte se descubrieron montañas, cañones y cráteres en la superficie del planeta."
+        ]
+    },
+	{
+      "tag": "jupiter_masa",
+      "patterns": [
+        "¿Cuál es la masa de Júpiter?",
+        "¿Cuánta masa tiene Júpiter?",
+        "¿Cuál es la masa aproximada de Júpiter?",
+        "Dime, ¿cuánto pesa Júpiter?",
+        "Quiero saber la masa de Júpiter",
+        "¿Sabes cuál es la masa de Júpiter?",
+        "¿Podrías decirme la masa de Júpiter?",
+        "Masa de Júpiter",
+        "Júpiter, masa",
+        "Masa aproximada de Júpiter"
+      ],
+      "responses": [
+        "La masa de Júpiter es de aproximadamente 1.898 x 10²⁷ kg.",
+        "Júpiter tiene una masa de alrededor de 1.898 x 10²⁷ kg.",
+        "La masa aproximada de Júpiter es de 1.898 x 10²⁷ kg.",
+        "Júpiter pesa alrededor de 1.898 x 10²⁷ kg.",
+        "La masa de Júpiter es de aproximadamente 1.898 x 10²⁷ kilogramos.",
+        "Júpiter tiene una masa de alrededor de 1.898 x 10²⁷ kilogramos.",
+        "La masa aproximada de Júpiter es de 1.898 x 10²⁷ kilogramos.",
+        "Júpiter pesa alrededor de 1.898 x 10²⁷ kilogramos.",
+        "La masa de Júpiter es de aproximadamente 1.898 x 10²⁷ kilos.",
+        "Júpiter tiene una masa de alrededor de 1.898 x 10²⁷ kilos."
+      ]
+    },
+	{
+        "tag": "jupiter_tamaño",
+        "patterns": [
+          "¿Cuál es el tamaño de Júpiter?",
+          "¿Qué tan grande es Júpiter?",
+          "¿De qué tamaño es Júpiter?",
+          "Dime el tamaño de Júpiter",
+          "¿Cuánto mide Júpiter?",
+          "¿Cuánto es el diámetro de Júpiter?",
+          "¿Cuántos kilómetros mide Júpiter?",
+          "¿Qué tamaño tiene Júpiter comparado con la Tierra?",
+          "¿Cuál es el diámetro de Júpiter en relación a otros planetas?",
+          "¿Es Júpiter el planeta más grande del sistema solar?"
+        ],
+        "responses": [
+          "Júpiter es el planeta más grande del sistema solar, su diámetro es de aproximadamente 139.822 kilómetros.",
+          "El tamaño de Júpiter es de aproximadamente 139.822 kilómetros de diámetro.",
+          "El diámetro de Júpiter es de alrededor de 139.822 kilómetros.",
+          "Júpiter tiene un tamaño de aproximadamente 139.822 kilómetros de diámetro.",
+          "Comparado con la Tierra, Júpiter es 11 veces más grande en diámetro.",
+          "El diámetro de Júpiter es mayor que cualquier otro planeta en el sistema solar.",
+          "Júpiter es el planeta más grande del sistema solar, siendo su diámetro aproximadamente 11 veces el de la Tierra.",
+          "Júpiter es el quinto planeta del sistema solar y el más grande en diámetro con 139.822 kilómetros.",
+          "El diámetro ecuatorial de Júpiter es de 142.984 km, mientras que el diámetro polar es de 133.709 km.",
+          "Júpiter es más grande que todos los planetas del sistema solar juntos."
+        ]
+    },
+	{
+        "tag": "jupiter_lunas",
+        "patterns": [
+            "¿Cuántas lunas tiene Júpiter?",
+            "¿Cuáles son las lunas más grandes de Júpiter?",
+            "¿Qué sabemos sobre las lunas de Júpiter?",
+            "¿Cómo se llaman las lunas de Júpiter?",
+            "Háblame sobre las lunas de Júpiter",
+            "¿Qué características tienen las lunas de Júpiter?",
+            "¿Cuántas lunas de Júpiter son habitables?",
+            "¿Cuántas lunas de Júpiter han sido visitadas por naves espaciales?",
+            "¿Cuál es la luna más grande de Júpiter?",
+            "¿Cuál es la luna más pequeña de Júpiter?"
+        ],
+        "responses": [
+            "Júpiter tiene 79 lunas conocidas hasta ahora.",
+            "Las cuatro lunas más grandes de Júpiter son Io, Europa, Ganímedes y Calisto.",
+            "Las lunas de Júpiter han sido estudiadas por naves espaciales como la Voyager y la Galileo. Sabemos que son cuerpos con superficies muy variadas y algunas tienen atmósferas delgadas.",
+            "Las lunas de Júpiter reciben nombres de los amantes, descendientes o compañeros de Zeus o Júpiter de la mitología romana o griega.",
+            "Las lunas de Júpiter son muy diversas. Algunas tienen superficies cubiertas de cráteres, otras tienen superficies lisas y llanas, algunas tienen geiseres de hielo y otras tienen océanos subterráneos.",
+            "De las 79 lunas de Júpiter, se cree que solo Europa, Ganímedes y Calisto podrían tener océanos subterráneos que podrían albergar vida.",
+            "Hasta el momento, cuatro lunas de Júpiter han sido visitadas por naves espaciales: Io, Europa, Ganímedes y Calisto.",
+            "Ganímedes es la luna más grande de Júpiter y también la más grande del sistema solar.",
+            "La luna más pequeña de Júpiter es S/2003 J 2.",
+            "Las lunas de Júpiter son de gran interés científico debido a su diversidad y a la posibilidad de que algunas puedan tener vida en sus océanos subterráneos."
+        ]
+    },
+	{
+        "tag": "jupiter_atmosfera",
+        "patterns": [
+            "¿Cómo es la atmósfera de Júpiter?",
+            "Descripción de la atmósfera de Júpiter",
+            "¿Qué gases componen la atmósfera de Júpiter?",
+            "¿Cuál es la densidad de la atmósfera de Júpiter?",
+            "¿Qué fenómenos atmosféricos se pueden observar en Júpiter?",
+            "¿Cuál es la temperatura de la atmósfera de Júpiter?",
+            "¿Por qué la atmósfera de Júpiter es importante?",
+            "¿Cómo afecta la atmósfera de Júpiter a su magnetosfera?",
+            "¿Cómo afecta la atmósfera de Júpiter a su sistema de lunas?",
+            "¿Por qué la atmósfera de Júpiter es difícil de estudiar?"
+        ],
+        "responses": [
+            "La atmósfera de Júpiter es muy densa y está compuesta principalmente de hidrógeno y helio, con trazas de metano, amoníaco, vapor de agua y otros gases.",
+            "La atmósfera de Júpiter es una de las más dinámicas del sistema solar, con fenómenos como tormentas gigantes, vórtices y rayos.",
+            "La densidad de la atmósfera de Júpiter es aproximadamente 20 veces mayor que la de la Tierra.",
+            "En la atmósfera de Júpiter se pueden observar fenómenos como la Gran Mancha Roja, vórtices polares y tormentas eléctricas.",
+            "La temperatura de la atmósfera de Júpiter varía en función de la profundidad y la latitud, y puede alcanzar los -145°C en algunas zonas.",
+            "La atmósfera de Júpiter es importante porque juega un papel fundamental en la regulación del clima y el magnetismo del planeta.",
+            "La atmósfera de Júpiter interactúa con su magnetosfera, generando intensas auroras y otros fenómenos.",
+            "La atmósfera de Júpiter tiene un impacto significativo en su sistema de lunas, ya que influye en su composición y puede generar actividad geológica en ellas.",
+            "La atmósfera de Júpiter es difícil de estudiar debido a su densidad y complejidad, así como a las condiciones extremas en la atmósfera superior del planeta.",
+            "La atmósfera de Júpiter es objeto de estudio constante por parte de diversas misiones espaciales y telescopios, con el objetivo de comprender mejor su estructura y funcionamiento."
+        ]
+    },
+	{
+        "tag": "jupiter_color",
+        "patterns": [
+            "¿Cuál es el color de Júpiter?",
+            "¿De qué color es Júpiter?",
+            "Háblame del color de Jupiter",
+            "¿Qué colores tiene Júpiter?",
+            "¿Cuáles son los colores visibles en Júpiter?",
+            "¿Por qué Júpiter tiene su color?",
+            "¿Cómo se explica el color de Júpiter?",
+            "¿Cuáles son las causas del color de Júpiter?",
+            "¿De qué depende el color de Júpiter?",
+            "¿Existen variaciones en el color de Júpiter?"
+        ],
+        "responses": [
+            "El color de Júpiter es principalmente marrón y amarillo.",
+            "Júpiter tiene un color predominantemente marrón y amarillo.",
+            "Jupiter es conocido por su espectacular combinación de colores en su atmósfera. Su apariencia típica es una combinación de bandas horizontales oscuras y brillantes, llamadas zonas y cinturones, que se extienden alrededor del planeta.",
+            "Júpiter tiene una paleta de colores que incluye tonos marrones, amarillos y naranjas.",
+            "Los colores visibles en Júpiter incluyen principalmente tonos marrones y amarillos, así como algunas áreas rojas y blancas.",
+            "El color de Júpiter se debe a la presencia de diversas sustancias químicas en su atmósfera, incluyendo amoníaco, metano y otros gases.",
+            "El color de Júpiter es el resultado de la interacción entre la luz solar y las sustancias químicas presentes en su atmósfera.",
+            "El color de Júpiter depende de factores como la composición de su atmósfera y la incidencia de la luz solar.",
+            "Existen variaciones en el color de Júpiter debido a factores como las condiciones climáticas y las interacciones con sus lunas y campos magnéticos.",
+            "Sí, hay variaciones en el color de Júpiter debido a factores como las condiciones climáticas y la presencia de sustancias químicas en su atmósfera."
+        ]
+    },
+	{
+            "tag": "jupiter_rotacion",
+            "patterns": [
+                "¿Cuánto tiempo tarda Júpiter en rotar sobre su propio eje?",
+                "¿Júpiter tiene una rotación rápida o lenta?",
+                "¿Cómo es la rotación de Júpiter?",
+                "¿En qué dirección gira Júpiter?",
+                "¿Cuánto dura el día en Júpiter?",
+                "¿Cuál es la velocidad de rotación de Júpiter?",
+                "¿Júpiter rota en el mismo sentido que orbita?",
+                "¿Cuál es la inclinación axial de Júpiter?",
+                "¿Cuántos grados de inclinación tiene el eje de rotación de Júpiter?",
+                "¿Por qué la rotación de Júpiter es importante para su atmósfera?"
+            ],
+            "responses": [
+                "Júpiter es uno de los planetas que más rápidamente gira sobre su propio eje. Un día en Júpiter, o el tiempo que tarda en completar una rotación completa, dura aproximadamente 9 horas y 56 minutos terrestres.",
+                "La rotación de Júpiter es muy rápida, completando una rotación completa en menos de 10 horas terrestres.",
+                "Júpiter gira rápidamente sobre su propio eje, lo que hace que su atmósfera tenga patrones de clima complejos y distintivos. La rotación también puede influir en la formación y mantenimiento de la Gran Mancha Roja de Júpiter, una tormenta que ha estado activa durante siglos.",
+                "Júpiter gira en la misma dirección que orbita alrededor del Sol, en un movimiento contrario a la mayoría de los planetas del sistema solar.",
+                "El eje de rotación de Júpiter está inclinado aproximadamente 3 grados con respecto a su plano orbital.",
+                "Júpiter gira rápidamente, a una velocidad de rotación de aproximadamente 12.6 kilómetros por segundo en el ecuador.",
+                "Sí, Júpiter gira en la misma dirección que orbita alrededor del Sol, en un movimiento contrario a la mayoría de los planetas del sistema solar.",
+                "El eje de rotación de Júpiter está inclinado unos 3 grados con respecto a su plano orbital, lo que significa que su polo norte apunta ligeramente hacia el Sol.",
+                "El eje de rotación de Júpiter está inclinado aproximadamente 3 grados con respecto a su plano orbital, lo que significa que no hay estaciones en el planeta. Esto también contribuye a la formación de los patrones de clima complejos y distintivos de Júpiter.",
+                "La rotación rápida de Júpiter puede influir en la formación y mantenimiento de la Gran Mancha Roja de Júpiter, una tormenta que ha estado activa durante siglos, así como en otros patrones climáticos y meteorológicos de su atmósfera."
+            ]
+    },
+	{
+      "tag": "jupiter_orbita",
+      "patterns": [
+        "¿Cuál es la órbita de Jupiter?",
+        "¿Cuánto tiempo tarda Jupiter en dar una vuelta al Sol?",
+        "¿Cómo es la órbita de Jupiter?",
+        "¿Cuál es la distancia de Jupiter al Sol?",
+        "Háblame de la órbita de Jupiter",
+        "¿Cuánto tarda Jupiter en orbitar alrededor del Sol?",
+        "¿Qué forma tiene la órbita de Jupiter?",
+        "¿Qué se sabe acerca de la órbita de Jupiter?",
+        "¿Cuántos años le toma a Jupiter dar una vuelta completa alrededor del Sol?",
+        "¿Cómo influye la órbita de Jupiter en su clima?"
+      ],
+      "responses": [
+        "Jupiter tarda aproximadamente 11.86 años terrestres en dar una vuelta completa alrededor del Sol.",
+        "La órbita de Jupiter es una elipse, con una distancia media del Sol de aproximadamente 778 millones de kilómetros.",
+        "La órbita de Jupiter es una elipse ligeramente achatada con un excentricidad de 0,048.",
+        "La órbita de Jupiter influye en su clima y en sus satélites, y es la más grande de todos los planetas del sistema solar.",
+        "La órbita de Jupiter es bastante circular y le toma alrededor de 12 años terrestres dar una vuelta completa alrededor del Sol.",
+        "Jupiter orbita alrededor del Sol a una distancia promedio de 778 millones de kilómetros, tardando cerca de 12 años terrestres en completar una vuelta completa.",
+        "La órbita de Jupiter tiene una forma elíptica y su distancia media al Sol es de 778 millones de kilómetros.",
+        "Jupiter tarda aproximadamente 11.86 años terrestres en orbitar alrededor del Sol en una órbita ligeramente achatada.",
+        "La órbita de Jupiter es elíptica y le toma alrededor de 12 años terrestres dar una vuelta completa alrededor del Sol.",
+        "La órbita de Jupiter es bastante circular y le toma alrededor de 12 años terrestres dar una vuelta completa alrededor del Sol, influyendo en su clima y en sus satélites."
+      ]
+    },
+	{
+        "tag": "jupiter_superficie",
+        "patterns": [
+            "¿Cuál es la superficie de Júpiter?",
+            "Háblame de la superficie de Júpiter",
+            "¿Qué se sabe de la superficie de Júpiter?",
+            "¿Cómo es la superficie de Júpiter?",
+            "¿Hay montañas en la superficie de Júpiter?",
+            "¿Qué podemos encontrar en la superficie de Júpiter?",
+            "¿Hay cráteres en la superficie de Júpiter?",
+            "¿Cómo es el terreno de Júpiter?",
+            "¿Qué tan diferente es la superficie de Júpiter de la de la Tierra?",
+            "¿Existen planicies en la superficie de Júpiter?"
+        ],
+        "responses": [
+            "Júpiter no tiene una superficie sólida, sino que está compuesto principalmente de hidrógeno y helio en su atmósfera.",
+            "Dado que Júpiter es un planeta gaseoso, no tiene una superficie sólida definida como los planetas rocosos.",
+            "La superficie visible de Júpiter es en realidad solo la capa superior de su atmósfera, que consiste principalmente en hidrógeno, helio y pequeñas cantidades de otros gases.",
+            "No se ha encontrado evidencia de una superficie sólida en Júpiter, sino que está compuesto principalmente de gases en su atmósfera.",
+            "Aunque Júpiter no tiene una superficie sólida, los científicos han detectado ondas y perturbaciones en su atmósfera que podrían estar relacionados con el movimiento de fluidos debajo de la capa superior.",
+            "Los patrones de nubes en la atmósfera superior de Júpiter son muy distintivos y muestran la complejidad de la dinámica atmosférica de este planeta.",
+            "A diferencia de los planetas terrestres como la Tierra, Júpiter no tiene una superficie sólida definida y su atmósfera es extremadamente dinámica.",
+            "Aunque Júpiter no tiene una superficie sólida, se han detectado ciertos rasgos en su atmósfera que sugieren la presencia de tormentas y sistemas meteorológicos complejos.",
+            "Debido a que Júpiter es un planeta gaseoso, no tiene una superficie sólida y su atmósfera es muy dinámica, lo que hace que su terreno sea muy diferente al de la Tierra.",
+            "Aunque Júpiter no tiene una superficie sólida, los científicos han identificado características como bandas de nubes, manchas y vórtices en su atmósfera, lo que sugiere una compleja dinámica de fluidos en su interior."
+        ]
+    },
+	{
+            "tag": "jupiter_misiones",
+            "patterns": [
+                "¿Qué misiones se han enviado a Júpiter?",
+                "¿Cuáles son las misiones que han estudiado a Júpiter?",
+                "Háblame de las misiones que se han realizado a Júpiter",
+                "¿Qué naves espaciales han visitado Júpiter?",
+                "¿Cuáles son las misiones más importantes a Júpiter?",
+                "¿Qué misiones están planeadas para estudiar a Júpiter en el futuro?",
+                "¿Cuáles son los resultados más importantes de las misiones a Júpiter?",
+                "¿Qué hemos aprendido sobre Júpiter gracias a las misiones espaciales?",
+                "¿Cuántas misiones espaciales se han realizado a Júpiter?",
+                "¿Cuál es la misión más reciente a Júpiter?"
+            ],
+            "responses": [
+                "Algunas de las misiones que se han enviado a Júpiter son Pioneer 10 y 11, Voyager 1 y 2, Galileo, Juno, entre otras.",
+                "Entre las misiones que han estudiado a Júpiter se encuentran Pioneer 10 y 11, Voyager 1 y 2, Galileo, Juno, entre otras.",
+                "Se han realizado varias misiones a Júpiter para estudiar su atmósfera, su magnetósfera, sus lunas y otros aspectos. Entre ellas se encuentran Pioneer 10 y 11, Voyager 1 y 2, Galileo, Juno, entre otras.",
+                "Algunas de las naves espaciales que han visitado Júpiter son Pioneer 10 y 11, Voyager 1 y 2, Galileo, Juno, entre otras.",
+                "Entre las misiones más importantes a Júpiter se encuentran Galileo, que estuvo en órbita alrededor del planeta y realizó múltiples sobrevuelos de sus lunas, y Juno, que actualmente está estudiando su atmósfera y su estructura interna.",
+                "Están planeadas varias misiones para estudiar a Júpiter en el futuro, como Europa Clipper, que se enfocará en la luna Europa, y JUICE, que explorará las lunas Ganímedes, Calisto y Europa.",
+                "Las misiones a Júpiter han permitido obtener información importante sobre su estructura interna, su atmósfera y su magnetósfera, así como sobre sus lunas y su historia.",
+                "Gracias a las misiones espaciales a Júpiter hemos aprendido sobre la existencia de múltiples lunas y anillos alrededor del planeta, así como sobre su atmósfera y su campo magnético.",
+                "Se han realizado varias misiones espaciales a Júpiter, incluyendo Pioneer 10 y 11, Voyager 1 y 2, Galileo, Juno, entre otras.",
+                "La misión más reciente a Júpiter es Juno, de la NASA, lanzada en 2011 y que llegó a Júpiter en 2016 que llegó al planeta en 2016 y está actualmente en órbita estudiando su atmósfera y su campo magnético."
+			]
+	},
+	{
+        "tag": "jupiter_descubrimiento",
+        "patterns": [
+            "¿Quién descubrió Júpiter?",
+            "¿Cuándo se descubrió Júpiter?",
+            "¿Cómo se descubrió Júpiter?",
+            "¿Quién fue el primer científico en observar Júpiter?",
+            "¿Quién nombró a Júpiter?",
+            "¿Cómo se conocía a Júpiter en la antigüedad?",
+            "¿Qué civilización descubrió Júpiter?",
+            "¿Qué datos se conocen sobre la observación de Júpiter en la antigüedad?",
+            "¿Cuál fue la contribución de Galileo al descubrimiento de Júpiter?",
+            "¿Qué descubrimientos sobre Júpiter realizó la misión Voyager?"
+        ],
+        "responses": [
+            "Júpiter ha sido conocido desde la antigüedad, por lo que no se puede atribuir su descubrimiento a una sola persona. Sin embargo, se cree que los babilonios, griegos y romanos lo observaron y registraron en sus registros astronómicos.",
+            "Júpiter ha sido conocido desde la antigüedad, pero el primer registro escrito se atribuye a los babilonios en el siglo VII a.C. ",
+            "Júpiter ha sido conocido desde la antigüedad, pero fue Galileo Galilei quien realizó las primeras observaciones telescópicas detalladas de Júpiter en 1610.",
+            "Galileo Galilei fue el primer científico en observar Júpiter en detalle en 1610, a través de un telescopio que él mismo construyó.",
+            "Júpiter recibió su nombre en honor al rey de los dioses romanos. La palabra 'Júpiter' proviene del latín 'Iuppiter', que significa 'padre de los dioses'.",
+            "Júpiter era conocido como Zeus en la mitología griega y como Júpiter en la mitología romana.",
+            "Se cree que los babilonios y los sumerios observaron y registraron a Júpiter en sus registros astronómicos.",
+            "Los antiguos astrónomos babilonios y griegos conocían la posición de Júpiter y registraron su movimiento a través del cielo. Los romanos le asignaron el nombre de Júpiter en honor al rey de los dioses.",
+            "Galileo Galilei realizó varias observaciones importantes sobre Júpiter, incluyendo la identificación de los cuatro satélites más grandes de Júpiter, que ahora se conocen como las lunas galileanas. También observó las bandas de nubes en la atmósfera de Júpiter y su rotación.",
+            "La misión Voyager descubrió varias características de Júpiter, incluyendo la Gran Mancha Roja, un gigantesco huracán en la atmósfera de Júpiter. También se descubrieron volcanes activos en su luna Io y se confirmó la existencia de anillos alrededor del planeta."
+        ]
+	},
+	{
+            "tag": "saturno_masa",
+            "patterns": [
+                "¿Cuál es la masa de Saturno?",
+                "Háblame sobre la masa de Saturno",
+                "¿Sabes cuánto pesa Saturno?",
+                "¿Qué tan pesado es Saturno?",
+                "Dime la masa de Saturno",
+                "¿Cuánto pesa Saturno?",
+                "¿Qué cantidad de masa tiene Saturno?",
+                "Explícame sobre la masa de Saturno",
+                "¿Cuál es el valor de la masa de Saturno?",
+                "¿Cuánta masa tiene el planeta Saturno?"
+            ],
+            "responses": [
+                "La masa de Saturno es aproximadamente 5.7 x 10^26 kilogramos.",
+                "Saturno tiene una masa de alrededor de 5.7 x 10^26 kilogramos.",
+                "La masa de Saturno es de aproximadamente 95 veces la masa de la Tierra.",
+                "El peso de Saturno es de alrededor de 5.7 x 10^26 kilogramos.",
+                "La masa de Saturno es de alrededor de 95 veces la masa de la Tierra.",
+                "Saturno tiene una masa de aproximadamente 95 veces la masa de la Tierra.",
+                "La masa del planeta Saturno es de aproximadamente 5.7 x 10^26 kilogramos.",
+                "Saturno pesa alrededor de 5.7 x 10^26 kilogramos.",
+                "La cantidad de masa que Saturno tiene es de aproximadamente 95 veces la masa de la Tierra.",
+                "El valor de la masa de Saturno es de alrededor de 5.7 x 10^26 kilogramos."
+            ]
+    },
+    {
+       "tag": "saturno_tamaño",
+       "patterns": [
+           "¿Cuál es el tamaño de Saturno?",
+           "Háblame sobre el tamaño de Saturno",
+           "¿Qué tan grande es Saturno?",
+           "¿Cuál es el diámetro de Saturno?",
+           "¿Cuál es la circunferencia de Saturno?",
+           "Háblame sobre el tamaño de este planeta",
+           "¿Cuánto mide Saturno?",
+           "¿Cómo es el tamaño de Saturno en comparación con otros planetas?",
+           "¿Qué tan grande es Saturno comparado con la Tierra?",
+           "¿Cuál es el radio de Saturno?"
+       ],
+       "responses": [
+           "Saturno es el sexto planeta más grande del sistema solar y tiene un diámetro ecuatorial de aproximadamente 116.460 kilómetros.",
+           "Saturno es el segundo planeta más grande del sistema solar y tiene un diámetro de alrededor de 116,460 kilómetros.",
+           "El diámetro ecuatorial de Saturno es de aproximadamente 116,460 kilómetros.",
+           "Saturno es el segundo planeta más grande del sistema solar, con un diámetro de aproximadamente 116,460 kilómetros.",
+           "La circunferencia de Saturno es de alrededor de 365,882 kilómetros.",
+           "El diámetro de Saturno es de alrededor de 116,460 kilómetros.",
+           "Saturno es alrededor de 9 veces más grande que la Tierra en términos de diámetro.",
+           "El radio de Saturno es de aproximadamente 58,232 kilómetros.",
+           "Saturno tiene un tamaño aproximado de 116.460 kilómetros de diámetro ecuatorial.",
+           "El tamaño de Saturno es solo un poco más pequeño que el de Júpiter, el planeta más grande del sistema solar."
+            ]
+    },
+	{
+            "tag": "saturno_lunas",
+            "patterns": [
+                "¿Cuántas lunas tiene Saturno?",
+                "Háblame sobre las lunas de Saturno",
+                "¿Cuáles son las lunas más grandes de Saturno?",
+                "¿Cuál es la luna más grande de Saturno?",
+                "¿Cuál es la luna más interesante de Saturno?",
+                "¿Cuáles son las características de las lunas de Saturno?",
+                "¿Cómo se llaman las lunas de Saturno?",
+                "¿Hay lunas habitables en Saturno?",
+                "¿Cuál es la composición de las lunas de Saturno?",
+                "¿Cuál es el tamaño de las lunas de Saturno?"
+            ],
+            "responses": [
+                "Saturno tiene 82 lunas confirmadas y se siguen descubriendo más.",
+                "Las lunas de Saturno son fascinantes, hay 82 confirmadas y todas tienen características únicas.",
+                "Las dos lunas más grandes de Saturno son Titán y Rea.",
+                "Titán es la luna más grande de Saturno y la segunda más grande del sistema solar, después de Ganímedes.",
+                "Encélado es considerada una de las lunas más interesantes de Saturno, debido a sus geysers de agua que expulsan al espacio.",
+                "Las lunas de Saturno tienen una gran variedad de características, algunas tienen cráteres, otras tienen volcanes y algunas tienen océanos subterráneos.",
+                "Las lunas de Saturno tienen nombres de personajes de la mitología griega y algunos de la mitología nórdica.",
+                "No se ha encontrado evidencia de que haya lunas habitables en Saturno, pero las investigaciones continúan.",
+                "Las lunas de Saturno tienen una composición diversa, algunas están hechas de hielo y roca mientras que otras son principalmente de hielo.",
+                "Las lunas de Saturno tienen diferentes tamaños, desde pequeñas lunas de solo unos pocos kilómetros hasta Titán, que tiene un diámetro de más de 5,000 kilómetros."
+            ]
+    },
+	{
+            "tag": "saturno_atmosfera",
+            "patterns": [
+                "¿Cómo es la atmósfera de Saturno?",
+                "Háblame sobre la atmósfera de Saturno",
+                "¿Qué gases componen la atmósfera de Saturno?",
+                "¿Qué elementos químicos hay en la atmósfera de Saturno?",
+                "¿Cuáles son las características de la atmósfera de Saturno?",
+                "¿Cuál es la composición química de la atmósfera de Saturno?",
+                "¿Qué fenómenos atmosféricos ocurren en Saturno?",
+                "¿Qué colores tiene la atmósfera de Saturno?",
+                "¿Cómo se ve el cielo de Saturno?",
+                "¿Qué se sabe sobre la meteorología de Saturno?"
+            ],
+            "responses": [
+                "La atmósfera de Saturno está compuesta principalmente de hidrógeno y helio, con trazas de otros gases como metano y amoníaco.",
+                "La atmósfera de Saturno está compuesta principalmente de hidrógeno y helio, con trazas de metano, amoníaco y otros gases.",
+                "La atmósfera de Saturno está formada principalmente por hidrógeno y helio, y también contiene pequeñas cantidades de metano, amoníaco y otros gases.",
+                "La atmósfera de Saturno es muy similar a la de Júpiter, compuesta principalmente por hidrógeno y helio, pero con trazas de otros gases.",
+                "La atmósfera de Saturno presenta fenómenos meteorológicos interesantes, como tormentas gigantes y una serie de vórtices.",
+                "La atmósfera de Saturno es mayormente transparente, pero presenta nubes de amoníaco en las capas más bajas y nubes de hielo en las capas más altas.",
+                "El cielo de Saturno es de un color amarillo pálido debido a la presencia de aerosoles en su atmósfera.",
+                "La meteorología de Saturno es muy activa, con tormentas y vórtices gigantes que se forman y desvanecen constantemente.",
+                "La atmósfera de Saturno también contiene compuestos orgánicos, lo que ha llevado a la especulación sobre la posibilidad de vida en sus lunas.",
+                "La atmósfera de Saturno es muy dinámica, con una serie de corrientes de viento que recorren el planeta y nubes que cambian de forma y color con el tiempo."
+            ]
+    },
+	{
+            "tag": "saturno_color",
+            "patterns": [
+                "¿De qué color es Saturno?",
+                "Háblame sobre el color de Saturno",
+                "¿Cuál es el tono de Saturno?",
+                "¿Por qué Saturno es de color amarillo?",
+                "¿Por qué Saturno tiene anillos?",
+                "¿Cuál es el aspecto visual de Saturno?",
+                "¿Qué tonalidades tiene Saturno?",
+                "¿Cómo es el color de la atmósfera de Saturno?",
+                "¿Cuál es el color predominante en Saturno?",
+                "¿Cómo se ve Saturno desde la Tierra?"
+            ],
+            "responses": [
+                "El color predominante de Saturno es amarillo pálido debido a la presencia de amoníaco en su atmósfera.",
+                "El aspecto visual de Saturno es amarillo pálido con franjas de diferentes tonalidades debido a los vientos que soplan en su atmósfera.",
+                "Saturno tiene un color amarillo pálido debido a la presencia de amoníaco en su atmósfera.",
+                "La atmósfera de Saturno tiene un color amarillo pálido debido a la presencia de amoníaco.",
+                "El color predominante de Saturno es amarillo pálido debido a la presencia de amoníaco en su atmósfera y sus anillos reflejan diferentes tonalidades según la posición del observador.",
+                "Saturno tiene un color amarillo pálido con franjas de diferentes tonalidades debido a los vientos que soplan en su atmósfera.",
+                "El color predominante de la atmósfera de Saturno es amarillo pálido debido a la presencia de amoníaco.",
+                "El color predominante en Saturno es amarillo pálido, pero también tiene franjas de color marrón y beige.",
+                "Saturno se ve como un punto amarillo pálido en el cielo nocturno desde la Tierra.",
+                "Los colores de Saturno varían dependiendo de la ubicación y la atmósfera del planeta, pero en general es de color amarillo pálido."
+            ]
+    },
+	{
+        "tag": "saturno_rotacion",
+        "patterns": [
+          "¿Cuánto tiempo tarda Saturno en completar una rotación sobre su eje?",
+          "¿Cuántas horas dura un día en Saturno?",
+          "¿A qué velocidad gira Saturno?",
+          "¿Cómo es la rotación de Saturno en comparación con otros planetas?",
+          "¿Cuál es la inclinación del eje de rotación de Saturno?",
+          "¿Cuántos días tarda Saturno en completar una vuelta al Sol?",
+          "¿Qué causa la velocidad de rotación de Saturno?",
+          "¿Cuáles son las consecuencias de la rápida rotación de Saturno?",
+          "¿Saturno siempre ha girado a la misma velocidad?",
+          "¿Qué efecto tiene la rotación de Saturno en su campo magnético?"
+        ],
+        "responses": [
+          "Saturno tarda aproximadamente 10 horas y 33 minutos en completar una rotación sobre su eje.",
+          "Un día en Saturno dura alrededor de 10 horas y 33 minutos.",
+          "Saturno gira a una velocidad de aproximadamente 9.87 km/s en su ecuador.",
+          "Saturno tiene una rotación relativamente rápida en comparación con otros planetas del sistema solar.",
+          "El eje de rotación de Saturno está inclinado aproximadamente 27 grados con respecto a su plano orbital.",
+          "Saturno tarda alrededor de 29.5 años terrestres (10,759 días) en completar una vuelta al Sol.",
+          "La velocidad de rotación de Saturno es causada por la conservación del momento angular del planeta.",
+          "La rápida rotación de Saturno provoca un abultamiento en su ecuador y un achatamiento en sus polos.",
+          "No, se cree que en el pasado Saturno giraba más lentamente y ha ido acelerando con el tiempo.",
+          "La rotación de Saturno crea un campo magnético complejo y variable, con una forma similar a un disco con un anillo magnético."
+        ]
+    },
+	{
+            "tag": "saturno_orbita",
+            "patterns": [
+                "¿Cuánto tiempo tarda Saturno en orbitar al Sol?",
+                "Háblame sobre la órbita de Saturno",
+                "¿Cuánto tiempo le toma a Saturno orbitar alrededor del Sol?",
+                "¿Cuál es el período orbital de Saturno?",
+                "¿Cuál es la duración del año de Saturno?",
+                "¿Cuánto dura un día en Saturno?",
+                "¿Cómo es la órbita de Saturno en comparación con otros planetas?",
+                "¿Qué tan lejos está Saturno del Sol?",
+                "¿Cuántas lunas tiene Saturno?",
+                "¿Cómo afecta la gravedad de Saturno a su órbita?"
+            ],
+            "responses": [
+                "El período orbital de Saturno, o un año en Saturno, dura aproximadamente 29,5 años terrestres.",
+                "Saturno orbita alrededor del Sol una vez cada 29,5 años terrestres.",
+                "El año de Saturno es igual a aproximadamente 29,5 años terrestres.",
+                "El período orbital de Saturno es de aproximadamente 29,5 años terrestres.",
+                "Un día en Saturno dura aproximadamente 10,7 horas terrestres.",
+                "Saturno está a una distancia promedio del Sol de aproximadamente 1,4 mil millones de kilómetros.",
+                "Saturno tiene más de 80 lunas conocidas, incluyendo la famosa luna Titán.",
+                "La órbita de Saturno es bastante similar a la de Júpiter en términos de forma, pero es significativamente más larga en duración debido a su mayor distancia desde el Sol.",
+                "La gravedad de Saturno afecta las órbitas de sus lunas, haciéndolas más estables y ayudando a mantenerlas en su lugar.",
+                "Saturno orbita alrededor del Sol en una elipse, con su distancia al Sol variando en diferentes puntos de su órbita."
+            ]
+    },
+	{
+            "tag": "saturno_superficie",
+            "patterns": [
+                "¿Cómo es la superficie de Saturno?",
+                "¿Cuál es la composición de la superficie de Saturno?",
+                "Háblame sobre la superficie de Saturno",
+                "¿Hay montañas en la superficie de Saturno?",
+                "¿Cómo es el relieve de Saturno?",
+                "¿Hay cráteres en la superficie de Saturno?",
+                "¿Qué se sabe sobre la superficie de Saturno?",
+                "¿Hay llanuras en la superficie de Saturno?",
+                "¿Cuál es la temperatura de la superficie de Saturno?",
+                "¿Cómo es la apariencia de la superficie de Saturno?"
+            ],
+            "responses": [
+                "La superficie de Saturno está compuesta principalmente de hidrógeno, con un pequeño porcentaje de helio y trazas de otros gases.",
+                "No hay una superficie sólida en Saturno, ya que el planeta es principalmente gas y líquido.",
+                "Aunque no hay una superficie sólida en Saturno, hay muchas características interesantes en su atmósfera, como tormentas y patrones de nubes.",
+                "No se sabe mucho sobre la superficie de Saturno debido a su densa atmósfera.",
+                "No hay montañas ni cráteres visibles en la superficie de Saturno debido a su naturaleza gaseosa.",
+                "El relieve de Saturno se encuentra en su atmósfera, donde hay patrones de nubes y tormentas, incluyendo la famosa Gran Mancha Blanca.",
+                "Aunque Saturno no tiene una superficie sólida, hay áreas relativamente llanas en su atmósfera, como la región polar conocida como la Cuenca del Polo Norte.",
+                "La temperatura en la parte superior de la atmósfera de Saturno es de alrededor de -180 grados Celsius.",
+                "La apariencia de la superficie de Saturno es principalmente de nubes de gas en movimiento, con bandas de diferentes colores y patrones de tormentas.",
+                "La superficie de Saturno no es sólida, ya que el planeta es principalmente gas y líquido."
+            ]
+    },
+	{
+            "tag": "saturno_misiones",
+            "patterns": [
+                "¿Qué misiones espaciales han explorado Saturno?",
+                "Háblame sobre las misiones espaciales que han visitado Saturno",
+                "¿Cuáles son las misiones espaciales que han llegado a Saturno?",
+                "¿Qué agencias espaciales han enviado misiones a Saturno?",
+                "¿Cuál es la última misión que ha explorado Saturno?",
+                "¿Qué información han recopilado las misiones espaciales en Saturno?",
+                "¿Cuántas misiones espaciales se han enviado a Saturno?",
+                "¿Cuál es la duración de las misiones espaciales en Saturno?",
+                "¿Qué descubrimientos importantes han hecho las misiones espaciales en Saturno?",
+                "¿Cuál fue la primera misión espacial en visitar Saturno?"
+            ],
+            "responses": [
+                "Algunas de las misiones espaciales que han explorado Saturno son la Voyager 1 y 2, la Cassini-Huygens y la Juno.",
+                "La NASA ha enviado varias misiones espaciales a Saturno, incluyendo la Cassini-Huygens y la Juno. La Agencia Espacial Europea también envió la sonda Huygens en colaboración con la NASA.",
+                "La Cassini-Huygens es una de las misiones espaciales más conocidas que ha llegado a Saturno. También están la Voyager 1 y 2, y la Juno.",
+                "La NASA es la agencia espacial que ha enviado la mayoría de las misiones a Saturno, incluyendo la Cassini-Huygens y la Juno. La Agencia Espacial Europea también ha enviado la sonda Huygens en colaboración con la NASA.",
+                "La última misión que ha explorado Saturno es la Cassini-Huygens, que llegó al planeta en 2004 y finalizó en 2017.",
+                "Las misiones espaciales han recopilado información sobre la atmósfera, la composición de los anillos y lunas de Saturno, entre otros aspectos.",
+                "Hasta el momento, se han enviado al menos 5 misiones espaciales a Saturno.",
+                "La duración de las misiones varía dependiendo del objetivo y la tecnología disponible. La Cassini-Huygens, por ejemplo, estuvo en el espacio durante casi 20 años.",
+                "Las misiones espaciales en Saturno han hecho muchos descubrimientos importantes, como la existencia de géiseres en la luna Encélado y la estructura de los anillos del planeta.",
+                "La primera misión espacial en visitar Saturno fue la Pioneer 11, lanzada por la NASA en 1973."
+            ]
+    },
+	{
+            "tag": "saturno_descubrimiento",
+            "patterns": [
+                "¿Quién descubrió Saturno?",
+                "Háblame sobre el descubrimiento de Saturno",
+                "¿Cómo se descubrió Saturno?",
+                "¿Cuándo fue descubierto Saturno?",
+                "¿Qué civilización descubrió Saturno?",
+                "¿Qué científico descubrió Saturno?",
+                "¿Por qué se considera a Galileo como el descubridor de Saturno?",
+                "¿Cómo se supo que Saturno tenía anillos?",
+                "¿Cuándo se descubrieron los anillos de Saturno?",
+                "¿Quién fue el primero en observar los anillos de Saturno?"
+            ],
+            "responses": [
+                "Saturno es uno de los cinco planetas que se pueden ver a simple vista desde la Tierra y ha sido conocido desde la antigüedad. Se cree que los babilonios lo observaron en el siglo VII a.C.",
+                "Saturno es uno de los planetas conocidos desde la antigüedad, se cree que los babilonios lo observaron en el siglo VII a.C.",
+                "Galileo Galilei fue el primero en observar Saturno a través de un telescopio en 1610, pero no se dieron cuenta de que tenía anillos en ese momento.",
+                "En 1655, Christiaan Huygens fue el primero en describir los anillos de Saturno y su naturaleza como una serie de anillos.",
+                "Se cree que los antiguos griegos y romanos conocían la existencia de Saturno, pero se desconoce exactamente quién lo descubrió.",
+                "El astrónomo italiano Giovanni Domenico Cassini descubrió cuatro de las lunas de Saturno y fue el primero en observar la separación entre los anillos A y B de Saturno, conocido como la división de Cassini.",
+                "Galileo Galilei observó Saturno por primera vez en 1610, pero no pudo determinar la naturaleza de los anillos debido a la baja calidad de su telescopio.",
+                "Los anillos de Saturno se descubrieron por primera vez en 1610 por Galileo Galilei, pero no se dieron cuenta de que eran anillos en ese momento.",
+                "En 1979, la nave espacial Voyager 1 descubrió la complejidad de la estructura de los anillos de Saturno y reveló detalles desconocidos previamente sobre ellos.",
+                "El astrónomo holandés Christiaan Huygens fue el primero en describir los anillos de Saturno en detalle en 1655."
+            ]
+    },
+	{
+            "tag": "urano_masa",
+            "patterns": [
+                "¿Cuál es la masa de Urano?",
+                "Háblame sobre la masa de Urano",
+                "¿Qué tan pesado es Urano?",
+                "¿Cuánta masa tiene Urano?",
+                "¿Cómo se compara la masa de Urano con otros planetas?",
+                "¿Cuál es la densidad de Urano?",
+                "¿Cuál es la gravedad en la superficie de Urano?",
+                "¿Cuál es la masa de Urano en relación con la Tierra?",
+                "¿Cuál es la masa de Urano en kilogramos?",
+                "¿Cómo se mide la masa de Urano?"
+            ],
+            "responses": [
+                "La masa de Urano es de aproximadamente 8.68 × 10^25 kilogramos.",
+                "Urano tiene una masa de alrededor de 8.68 × 10^25 kilogramos.",
+                "La masa de Urano es aproximadamente 14.5 veces la masa de la Tierra.",
+                "Urano es el tercer planeta más masivo del sistema solar, después de Júpiter y Saturno.",
+                "La densidad de Urano es de alrededor de 1.27 gramos por centímetro cúbico.",
+                "La gravedad en la superficie de Urano es de aproximadamente 8.69 metros por segundo al cuadrado.",
+                "La masa de Urano es aproximadamente 14.5 veces la masa de la Tierra.",
+                "La masa de Urano es de alrededor de 8.68 × 10^25 kilogramos.",
+                "La masa de Urano se mide utilizando las leyes de Kepler y la ley de gravitación universal de Newton.",
+                "La masa de Urano es aproximadamente 14.5 veces la masa de la Tierra."
+            ]
+    },
+	{
+        "tag": "urano_tamaño",
+        "patterns": [
+            "¿Cuál es el tamaño de Urano?",
+            "Háblame sobre el tamaño de Urano",
+            "¿Qué tan grande es Urano?",
+            "¿Cuál es el diámetro de Urano?",
+            "¿Cuál es la circunferencia de Urano?",
+            "Háblame sobre el tamaño de este planeta",
+            "¿Cuánto mide Urano?",
+            "¿Cómo es el tamaño de Urano en comparación con otros planetas?",
+            "¿Qué tan grande es Urano comparado con la Tierra?",
+            "¿Cuál es el radio de Urano?"
+        ],
+        "responses": [
+            "Urano es el séptimo planeta más grande del sistema solar y tiene un diámetro ecuatorial de aproximadamente 51,118 kilómetros.",
+            "Urano es un planeta de tamaño mediano en el sistema solar con un diámetro ecuatorial de aproximadamente 51,118 kilómetros.",
+            "El diámetro de Urano es de aproximadamente 51,118 kilómetros.",
+            "Urano es el séptimo planeta más grande del sistema solar, con un diámetro de aproximadamente 51,118 kilómetros.",
+            "La circunferencia de Urano es de alrededor de 159,354 kilómetros.",
+            "El diámetro de Urano es de alrededor de 51,118 kilómetros.",
+            "Urano es alrededor de 4 veces más grande que la Tierra en términos de diámetro.",
+            "El radio de Urano es de aproximadamente 25,559 kilómetros.",
+            "Urano es más pequeño que Júpiter y Saturno, pero más grande que Neptuno.",
+            "El tamaño de Urano en comparación con la Tierra es aproximadamente 4 veces mayor en términos de diámetro."
+        ]
+    },
+	{
+            "tag": "urano_lunas",
+            "patterns": [
+                "¿Cuántas lunas tiene Urano?",
+                "Háblame sobre las lunas de Urano",
+                "¿Cuáles son las lunas de Urano?",
+                "¿Hay lunas alrededor de Urano?",
+                "Dime sobre las lunas de Urano",
+                "¿Cuál es el número de lunas en Urano?",
+                "¿Qué puedes decirme sobre las lunas de Urano?",
+                "¿Existen satélites naturales en Urano?",
+                "¿Cuál es el nombre de las lunas de Urano?",
+                "¿Hay alguna luna interesante en Urano?"
+            ],
+            "responses": [
+                "Urano tiene un total de 27 lunas conocidas.",
+                "Las lunas de Urano incluyen Miranda, Ariel, Umbriel, Titania y Oberón, entre otras.",
+                "Las lunas de Urano incluyen Miranda, Ariel, Umbriel, Titania y Oberón, entre otras. En total, hay 27 lunas conocidas en Urano.",
+                "Urano tiene 27 lunas conocidas, siendo las más grandes Titania, Oberón, Umbriel, Ariel y Miranda.",
+                "Urano tiene 27 satélites conocidos, los cuales incluyen Miranda, Ariel, Umbriel, Titania y Oberón.",
+                "Las lunas de Urano son fascinantes. Hay un total de 27 satélites conocidos, incluyendo Miranda, Ariel, Umbriel, Titania y Oberón.",
+                "Sí, Urano tiene lunas. Hay un total de 27 satélites conocidos que orbitan el planeta.",
+                "Entre las 27 lunas conocidas de Urano se encuentran Miranda, Ariel, Umbriel, Titania y Oberón.",
+                "Las lunas de Urano son muy interesantes. Las más grandes son Titania, Oberón, Umbriel, Ariel y Miranda.",
+                "Entre las lunas de Urano se encuentra Miranda, que tiene una apariencia única debido a su geología."
+            ]
+    },
+	{
+        "tag": "urano_atmosfera",
+        "patterns": [
+            "¿Cómo es la atmósfera de Urano?",
+            "Háblame sobre la atmósfera de Urano",
+            "¿Qué se sabe sobre la atmósfera de Urano?",
+            "¿Qué gases componen la atmósfera de Urano?",
+            "¿Cómo es el clima en Urano?",
+            "¿Qué características tiene la atmósfera de Urano?",
+            "¿Cómo se compararía la atmósfera de Urano con la de otros planetas?",
+            "¿Se han hecho estudios sobre la atmósfera de Urano?",
+            "¿Qué se ha descubierto sobre la atmósfera de Urano?",
+            "¿Por qué la atmósfera de Urano es tan fría?"
+        ],
+        "responses": [
+            "La atmósfera de Urano está compuesta principalmente por hidrógeno y helio, pero también contiene cantidades significativas de metano. Tiene una temperatura media de -197 °C y presenta fuertes vientos y nubes.",
+            "La atmósfera de Urano está compuesta principalmente por hidrógeno y helio, pero también contiene metano. Tiene una temperatura media de -197 °C y se caracteriza por vientos muy fuertes y nubes.",
+            "La atmósfera de Urano es principalmente hidrógeno y helio, pero también contiene metano. Es muy fría, con una temperatura media de -197 °C, y presenta fuertes vientos y nubes.",
+            "La atmósfera de Urano contiene principalmente hidrógeno y helio, pero también metano. Es muy fría, con una temperatura media de -197 °C, y se caracteriza por vientos muy fuertes y nubes.",
+            "La atmósfera de Urano es muy fría, con una temperatura media de -197 °C. Está compuesta principalmente por hidrógeno y helio, pero también contiene cantidades significativas de metano. Se sabe que presenta fuertes vientos y nubes.",
+            "La atmósfera de Urano se compone principalmente de hidrógeno y helio, junto con metano y otros gases en menor cantidad. Es muy fría, con una temperatura media de -197 °C, y presenta fuertes vientos y nubes.",
+            "La atmósfera de Urano es única en comparación con la de otros planetas en el sistema solar. Está compuesta principalmente por hidrógeno y helio, pero también contiene metano. Es muy fría, con una temperatura media de -197 °C, y presenta fuertes vientos y nubes.",
+            "Sí, se han realizado estudios sobre la atmósfera de Urano. Algunos de los hallazgos incluyen la presencia de una capa de nubes, así como vientos que pueden alcanzar velocidades de hasta 900 kilómetros por hora.",
+            "Los estudios realizados sobre la atmósfera de Urano han revelado algunas características interesantes, como una capa de nubes y vientos que pueden superar los 900 kilómetros por hora.",
+            "Se sabe que la atmósfera de Urano es muy fría debido a la gran distancia del planeta al Sol y a la composición de gases como el de hidrógeno y helio, que son gases que no retienen bien el calor"
+		]
+	},
+	{
+            "tag": "urano_color",
+            "patterns": [
+                "¿De qué color es Urano?",
+                "Háblame sobre el color de Urano",
+                "¿Es Urano un planeta azul?",
+                "¿Por qué Urano es azul?",
+                "¿Cuál es el color de la atmósfera de Urano?",
+                "¿Cómo se ve Urano a simple vista?",
+                "¿Es Urano el único planeta azul del sistema solar?",
+                "¿Por qué algunos lo llaman el planeta de hielo?",
+                "¿Qué elementos químicos dan color a la atmósfera de Urano?",
+                "¿Cómo influye la composición de la atmósfera de Urano en su color?"
+            ],
+            "responses": [
+                "Urano es conocido como el planeta azul debido al metano en su atmósfera que le da un tono azulado.",
+                "El color de Urano es principalmente azul debido al metano en su atmósfera.",
+                "Urano es conocido como el planeta azul debido al gas metano en su atmósfera.",
+                "El gas metano en la atmósfera de Urano es lo que le da su tono azulado característico.",
+                "La atmósfera de Urano es azul debido al metano en ella.",
+                "Urano es un planeta azul pálido que es difícil de ver a simple vista sin equipo astronómico.",
+                "Urano es el único planeta del sistema solar que se conoce comúnmente como el planeta azul.",
+                "Urano es conocido como el planeta de hielo debido a su temperatura y composición, lo que hace que su atmósfera y superficie sean predominantemente azul y blanca.",
+                "El color de la atmósfera de Urano se debe a la presencia de metano, hidrógeno y helio.",
+                "La composición de la atmósfera de Urano, particularmente la presencia de metano, es lo que le da su color distintivo."
+            ]
+    },
+	{
+            "tag": "urano_rotacion",
+            "patterns": [
+                "¿Cuánto tarda Urano en rotar sobre su propio eje?",
+                "¿Cuántas horas dura un día en Urano?",
+                "¿Cuánto tiempo tarda Urano en dar una vuelta completa alrededor de su eje?",
+                "¿Urano tiene una rotación rápida o lenta?",
+                "¿Cuál es la velocidad de rotación de Urano?",
+                "¿Urano rota en sentido horario o antihorario?",
+                "¿La rotación de Urano es constante?",
+                "¿Urano tiene una inclinación axial única en su rotación?",
+                "¿Cuál es el ángulo de inclinación axial de Urano?",
+                "¿Cuánto influye la inclinación axial de Urano en su rotación?"
+            ],
+            "responses": [
+                "Urano tarda alrededor de 17 horas en rotar completamente sobre su propio eje.",
+                "El día en Urano dura alrededor de 17 horas y 14 minutos terrestres.",
+                "Urano tarda alrededor de 17 horas en dar una vuelta completa alrededor de su eje.",
+                "Urano tiene una rotación bastante lenta en comparación con otros planetas del Sistema Solar.",
+                "La velocidad de rotación de Urano es de aproximadamente 2,6 kilómetros por segundo.",
+                "Urano tiene una rotación en sentido retrogrado, es decir, en dirección opuesta a la mayoría de los otros planetas del Sistema Solar.",
+                "La rotación de Urano no es constante y varía a medida que el planeta orbita alrededor del Sol.",
+                "Urano tiene una inclinación axial única en su rotación, con un ángulo de inclinación de aproximadamente 98 grados.",
+                "El ángulo de inclinación axial de Urano es de aproximadamente 98 grados, lo que significa que su eje de rotación está prácticamente en el plano de su órbita alrededor del Sol.",
+                "La inclinación axial de Urano influye significativamente en su rotación, lo que puede provocar cambios estacionales extremos en su atmósfera y clima."
+            ]
+    },
+	{
+            "tag": "urano_orbita",
+            "patterns": [
+                "¿Cuánto tiempo tarda Urano en dar una vuelta al Sol?",
+                "¿Cuánto dura un año en Urano?",
+                "¿Cuál es el período orbital de Urano?",
+                "¿En cuánto tiempo Urano da una vuelta alrededor del Sol?",
+                "¿Cuántos años dura una órbita completa de Urano?",
+                "¿Cuánto tarda Urano en dar la vuelta al Sol?",
+                "¿Cuál es la duración de la órbita de Urano?",
+                "¿Cuánto tarda Urano en completar una vuelta alrededor del Sol?",
+                "¿Cuántos días dura un año en Urano?",
+                "¿Cuánto tiempo tarda Urano en orbitar el Sol?"
+            ],
+            "responses": [
+                "Urano tarda aproximadamente 84 años terrestres en dar una vuelta completa alrededor del Sol.",
+                "El período orbital de Urano, es decir, la duración de un año uraniano, es de aproximadamente 84 años terrestres.",
+                "La órbita de Urano dura alrededor de 84 años terrestres.",
+                "Urano tarda unos 84 años terrestres en completar una vuelta alrededor del Sol.",
+                "Un año en Urano dura aproximadamente 84 años terrestres.",
+                "Urano orbita alrededor del Sol en un período de aproximadamente 84 años terrestres.",
+                "El tiempo que tarda Urano en orbitar el Sol es de aproximadamente 84 años terrestres.",
+                "Urano tarda aproximadamente 30,687 días terrestres en dar una vuelta completa alrededor del Sol.",
+                "El período orbital de Urano, es decir, la duración de un año uraniano, es de aproximadamente 30,687 días terrestres.",
+                "La órbita de Urano dura alrededor de 30,687 días terrestres."
+            ]
+    },
+	{
+        "tag": "urano_superficie",
+        "patterns": [
+            "¿Cómo es la superficie de Urano?",
+            "¿Hay montañas en Urano?",
+            "¿Cuál es la temperatura en la superficie de Urano?",
+            "¿Existen volcanes en Urano?",
+            "¿Qué se sabe sobre la geología de Urano?",
+            "¿Hay agua en la superficie de Urano?",
+            "¿Cuál es la composición de la superficie de Urano?",
+            "¿Se han realizado misiones para estudiar la superficie de Urano?",
+            "¿Cómo se compararía la superficie de Urano con la de otros planetas?",
+            "¿Hay algún fenómeno interesante en la superficie de Urano?"
+        ],
+        "responses": [
+            "La superficie de Urano está compuesta principalmente por hielo y roca.",
+            "Aunque no se han observado montañas prominentes en Urano, se cree que hay algunas elevaciones en la superficie del planeta.",
+            "La temperatura en la superficie de Urano es extremadamente fría, llegando a -197 °C en promedio.",
+            "No se han encontrado volcanes activos en Urano, aunque se han detectado signos de actividad volcánica en el pasado.",
+            "Debido a la distancia del planeta y la falta de misiones de exploración, se sabe muy poco sobre la geología de Urano.",
+            "No se ha detectado agua líquida en la superficie de Urano, aunque se cree que puede haber agua helada en algunas regiones.",
+            "Se sabe que la superficie de Urano está compuesta principalmente por hielo y roca, con una pequeña cantidad de metano y otros gases.",
+            "Hasta la fecha, solo se ha realizado una misión para estudiar Urano, la sonda Voyager 2 en 1986.",
+            "Comparada con la superficie de otros planetas del sistema solar, la superficie de Urano es bastante plana y sin rasgos distintivos.",
+            "Uno de los fenómenos más interesantes en la superficie de Urano son las auroras, que se cree son causadas por partículas energéticas del viento solar que interactúan con la atmósfera del planeta."
+        ]
+    },
+	{
+        "tag": "urano_misiones",
+        "patterns": [
+            "¿Cuáles son las misiones espaciales que se han realizado en Urano?",
+            "¿Ha habido alguna misión espacial a Urano?",
+            "¿Cuáles son las naves que han visitado Urano?",
+            "¿Se han enviado sondas a Urano?",
+            "¿Hay algún plan para enviar una misión a Urano en el futuro?",
+            "¿Qué misiones están planificadas para explorar Urano?",
+            "¿Cuál es la última misión que se ha realizado en Urano?",
+            "¿Qué descubrimientos se han hecho en Urano gracias a las misiones espaciales?",
+            "¿Cuál es el objetivo principal de las misiones espaciales a Urano?",
+            "¿Qué se espera aprender de futuras misiones a Urano?"
+        ],
+        "responses": [
+            "Hasta la fecha, solo se ha realizado una misión espacial a Urano, la Voyager 2 de la NASA, en 1986.",
+            "La única misión espacial que ha visitado Urano es la Voyager 2 de la NASA, en 1986.",
+            "La Voyager 2 de la NASA es la única nave que ha visitado Urano hasta el momento.",
+            "La Voyager 2 de la NASA es la única sonda que se ha enviado a Urano.",
+            "Actualmente no hay planes concretos para enviar una misión a Urano en el futuro cercano, pero hay algunas propuestas en discusión.",
+            "Hay algunas misiones propuestas para explorar Urano en el futuro, como la misión 'Urano Orbiter and Probe' de la NASA.",
+            "La última misión espacial a Urano fue la Voyager 2 de la NASA, en 1986.",
+            "Gracias a la misión Voyager 2 de la NASA, se descubrieron nuevas lunas y anillos en Urano, y se estudió su atmósfera y campo magnético.",
+            "El objetivo principal de las misiones espaciales a Urano es estudiar la composición y estructura de su atmósfera, sus anillos y lunas, su campo magnético y su historia geológica.",
+            "Se espera aprender más sobre la composición y la historia geológica de Urano, así como sobre su atmósfera, su campo magnético y sus lunas y anillos en futuras misiones espaciales."
+        ]
+    },
+	{
+        "tag": "urano_descubrimiento",
+        "patterns": [
+            "¿Quién descubrió a Urano?",
+            "¿Cuándo fue descubierto Urano?",
+            "¿Cómo fue descubierto Urano?",
+            "¿Qué astronomo descubrió a Urano?",
+            "¿Cuál fue el primer avistamiento de Urano?",
+            "¿En qué año se descubrió Urano?",
+            "¿Cuál fue el papel de Herschel en el descubrimiento de Urano?",
+            "¿Qué tecnología se usó para descubrir Urano?",
+            "¿Qué hizo especial el descubrimiento de Urano?",
+            "¿Por qué fue difícil descubrir a Urano?"
+        ],
+        "responses": [
+            "Urano fue descubierto por el astrónomo británico William Herschel en 1781.",
+            "Urano fue descubierto el 13 de marzo de 1781.",
+            "Urano fue descubierto por medio de un telescopio mientras Herschel estaba realizando observaciones astronómicas.",
+            "William Herschel, un astrónomo británico, descubrió a Urano en 1781.",
+            "El primer avistamiento de Urano fue realizado por William Herschel en 1781.",
+            "Urano fue descubierto en 1781.",
+            "Herschel descubrió a Urano mientras realizaba observaciones astronómicas y notó que una estrella parecía moverse de manera extraña.",
+            "William Herschel utilizó un telescopio reflector para descubrir a Urano.",
+            "El descubrimiento de Urano fue especial porque fue el primer planeta en ser descubierto utilizando un telescopio.",
+            "Fue difícil descubrir a Urano debido a su baja magnitud aparente y a la velocidad orbital."
+        ]
+    },
+	{
+            "tag": "neptuno_masa",
+            "patterns": [
+                "¿Cuál es la masa de Neptuno?",
+                "Masa de Neptuno",
+                "¿Neptuno es más masivo que la Tierra?",
+                "¿Qué tan grande es la masa de Neptuno?",
+                "Peso de Neptuno",
+                "¿Sabes cuánto pesa Neptuno?",
+                "¿Cuánto pesaría en Neptuno?",
+                "¿Cuánta masa tiene Neptuno?",
+                "¿Cuál es la gravedad de Neptuno?",
+                "Peso en Neptuno"
+            ],
+            "responses": [
+                "La masa de Neptuno es de aproximadamente 102,4 veces la masa de la Tierra, lo que significa que es mucho más masivo que nuestro planeta.",
+                "Neptuno es un gigante de hielo y tiene una masa de alrededor de 102,4 veces la masa de la Tierra.",
+                "Sí, Neptuno es mucho más masivo que la Tierra. Su masa es de aproximadamente 102,4 veces la masa de nuestro planeta.",
+                "La masa de Neptuno es de aproximadamente 102,4 veces la masa de la Tierra, lo que lo convierte en uno de los planetas más masivos del Sistema Solar.",
+                "El peso de Neptuno sería muy diferente al de la Tierra debido a la gravedad en ese planeta, pero su masa es de aproximadamente 102,4 veces la masa de la Tierra.",
+                "La masa de Neptuno es de alrededor de 102,4 veces la masa de la Tierra, lo que significa que es un planeta muy masivo en comparación con nuestro planeta de origen.",
+                "La masa de Neptuno es de aproximadamente 102,4 veces la masa de la Tierra, lo que lo hace más masivo que nuestro planeta.",
+                "La gravedad en Neptuno es de aproximadamente 11,15 metros por segundo cuadrado, lo que es un poco más fuerte que la gravedad en la Tierra. Esto se debe a la masa de Neptuno, que es de alrededor de 102,4 veces la masa de la Tierra.",
+                "La masa de Neptuno es de aproximadamente 102,4 veces la masa de la Tierra, lo que lo convierte en uno de los planetas más masivos del Sistema Solar.",
+                "Tu peso en Neptuno sería muy diferente debido a la gravedad en ese planeta, pero la masa de Neptuno es de alrededor de 102,4 veces la masa de la Tierra."
+            ]
+    },
+    {
+        "tag": "neptuno_tamaño",
+        "patterns": [
+          "¿Cuál es el tamaño de Neptuno?",
+          "¿Cuánto mide Neptuno?",
+          "¿Cuál es el diámetro de Neptuno?",
+          "¿Neptuno es más grande que la Tierra?",
+          "¿Es cierto que Neptuno es el planeta más grande del sistema solar?",
+          "¿Cuál es el volumen de Neptuno?",
+          "¿Neptuno es más grande que Urano?",
+          "¿Cómo se compara el tamaño de Neptuno con el de Júpiter?",
+          "¿Cuál es la masa de Neptuno?",
+          "¿Neptuno es más grande que Saturno?"
+        ],
+        "responses": [
+          "El diámetro de Neptuno es de aproximadamente 49,244 kilómetros.",
+          "Neptuno es el cuarto planeta más grande del sistema solar, con un diámetro de aproximadamente 49,244 kilómetros.",
+          "Sí, Neptuno es más grande que la Tierra, su diámetro es de aproximadamente 49,244 kilómetros mientras que el de la Tierra es de aproximadamente 12,742 kilómetros.",
+          "No, Neptuno no es el planeta más grande del sistema solar, Júpiter es el planeta más grande.",
+          "El volumen de Neptuno es de aproximadamente 62.52 billones de kilómetros cúbicos.",
+          "Sí, Neptuno es más grande que Urano, su diámetro es de aproximadamente 49,244 kilómetros mientras que el de Urano es de aproximadamente 50,724 kilómetros.",
+          "El tamaño de Neptuno es mucho menor que el de Júpiter, Júpiter es el planeta más grande del sistema solar.",
+          "La masa de Neptuno es de aproximadamente 102.41 billones de toneladas métricas.",
+          "No, Neptuno es más pequeño que Saturno, Saturno es el segundo planeta más grande del sistema solar después de Júpiter.",
+          "El radio de Neptuno es de aproximadamente 24,622 kilómetros."
+        ]
+    },
+	{
+        "tag": "neptuno_lunas",
+        "patterns": [
+            "¿Cuántas lunas tiene Neptuno?",
+            "¿Qué sabes sobre las lunas de Neptuno?",
+            "¿Cuáles son las lunas más grandes de Neptuno?",
+            "¿Cuál es la luna más grande de Neptuno?",
+            "¿Neptuno tiene lunas?",
+            "¿Cuándo se descubrieron las lunas de Neptuno?",
+            "¿Qué misiones espaciales han estudiado las lunas de Neptuno?",
+            "¿Las lunas de Neptuno tienen nombres mitológicos?",
+            "¿Las lunas de Neptuno tienen características similares a las lunas de Urano?",
+            "¿Cuál es la luna más pequeña de Neptuno?"
+        ],
+        "responses": [
+            "Neptuno tiene 14 lunas conocidas.",
+            "Las lunas de Neptuno son muy interesantes y variadas en tamaño y composición.",
+            "Las dos lunas más grandes de Neptuno son Tritón y Nereida.",
+            "La luna más grande de Neptuno es Tritón.",
+            "Sí, Neptuno tiene lunas. Actualmente se conocen 14 lunas del planeta.",
+            "Las lunas de Neptuno fueron descubiertas por primera vez en 1989 por la sonda espacial Voyager 2.",
+            "Las misiones espaciales que han estudiado las lunas de Neptuno son Voyager 2 y la misión New Horizons.",
+            "Sí, las lunas de Neptuno reciben nombres mitológicos relacionados con el dios romano del mar y sus hijos.",
+            "Las lunas de Neptuno son similares en composición y tamaño a las lunas de Urano.",
+            "La luna más pequeña de Neptuno es Neso, que fue descubierta en 2003 por un equipo de astrónomos."
+        ]
+    },
+	{
+        "tag": "neptuno_atmosfera",
+        "patterns": [
+            "¿Cómo es la atmósfera de Neptuno?",
+            "Descripción de la atmósfera de Neptuno",
+            "¿Qué gases hay en la atmósfera de Neptuno?",
+            "¿Por qué la atmósfera de Neptuno es azul?",
+            "¿Cuál es la temperatura en la atmósfera de Neptuno?",
+            "¿Hay vientos fuertes en la atmósfera de Neptuno?",
+            "¿Cuáles son las nubes en la atmósfera de Neptuno?",
+            "¿Cómo afecta la atmósfera de Neptuno a su clima?",
+            "¿Qué hace que la atmósfera de Neptuno sea tan dinámica?",
+            "¿Hay tormentas en la atmósfera de Neptuno?"
+        ],
+        "responses": [
+            "La atmósfera de Neptuno es principalmente compuesta por hidrógeno y helio, con pequeñas cantidades de metano, dióxido de carbono y otros gases.",
+            "La atmósfera de Neptuno es la más densa de los planetas gigantes del sistema solar, y se compone principalmente de hidrógeno y helio. El metano en la atmósfera es lo que le da su característico color azul.",
+            "La atmósfera de Neptuno tiene una temperatura promedio de -218 °C, lo que la convierte en la más fría del sistema solar.",
+            "La atmósfera de Neptuno es conocida por sus fuertes vientos, que pueden alcanzar velocidades de hasta 2.000 km/h.",
+            "La atmósfera de Neptuno es muy dinámica, con nubes de metano y otras sustancias que se mueven rápidamente por toda la superficie del planeta.",
+            "Las nubes de la atmósfera de Neptuno se dividen en dos tipos: nubes superiores y nubes inferiores. Las nubes superiores están compuestas principalmente de metano, mientras que las nubes inferiores están hechas de hielo de agua y amoníaco.",
+            "La atmósfera de Neptuno es responsable de su clima extremo, que incluye tormentas y vientos muy fuertes. Las tormentas en la atmósfera de Neptuno son conocidas por ser particularmente grandes y violentas.",
+            "Los fuertes vientos en la atmósfera de Neptuno son causados por la diferencia de temperatura entre el ecuador y los polos del planeta, así como por la rotación rápida del planeta.",
+            "La atmósfera de Neptuno es rica en gases volátiles como hidrógeno, helio, metano y amoníaco, que son responsables de su apariencia distintiva y dinámica.",
+            "La Gran Mancha Oscura en la atmósfera de Neptuno es una gran tormenta que se cree que ha estado presente en el planeta durante al menos 150 años. También hay otras tormentas más pequeñas en la atmósfera de Neptuno, así como vórtices y remolinos."
+        ]
+    },
+	{
+            "tag": "neptuno_color",
+            "patterns": [
+                "¿De qué color es Neptuno?",
+                "¿Cuál es el color de Neptuno?",
+                "¿Qué color tiene Neptuno?",
+                "¿Neptuno es de color azul?",
+                "¿Por qué Neptuno es azul?",
+                "¿Es cierto que Neptuno es de color azul?",
+                "¿Qué hace que Neptuno tenga ese color azul?",
+                "¿Neptuno siempre ha sido de color azul?",
+                "¿Es cierto que la atmósfera de Neptuno le da su color azul?",
+                "¿Qué sustancias le dan el color azul a Neptuno?"
+            ],
+            "responses": [
+                "Neptuno es de un color azul claro, debido a la presencia de metano en su atmósfera.",
+                "El color de Neptuno es un azul claro debido a la presencia de metano en su atmósfera.",
+                "El color de Neptuno es predominantemente azul debido a la presencia de metano en su atmósfera.",
+                "Sí, Neptuno es conocido por ser de color azul claro debido a la presencia de metano en su atmósfera.",
+                "La presencia de metano en la atmósfera de Neptuno es la responsable de su color azul característico.",
+                "Sí, la presencia de metano en la atmósfera de Neptuno le da su característico color azul.",
+                "El color azul claro de Neptuno se debe a la presencia de metano en su atmósfera.",
+                "Neptuno siempre ha sido de un color azul claro debido a la presencia de metano en su atmósfera.",
+                "Sí, la atmósfera de Neptuno le da su característico color azul debido a la presencia de metano.",
+                "La presencia de metano es la principal sustancia responsable del color azul característico de Neptuno."
+            ]
+    },
+	{
+         "tag": "neptuno_rotacion",
+         "patterns": [
+		   "¿Cuánto tiempo tarda Neptuno en rotar sobre su propio eje?",
+           "¿Cuál es el período de rotación de Neptuno?",
+           "¿Cuántas horas dura el día en Neptuno?",
+           "¿Cuántas veces Neptuno gira sobre su propio eje durante una órbita?",
+           "¿Cómo es la rotación de Neptuno?",
+           "¿En qué dirección gira Neptuno?",
+           "¿Cuál es el período de rotación de Neptuno?",
+           "¿Cuánto tiempo tarda Neptuno en rotar sobre su propio eje?",
+           "¿Cómo es la rotación de Neptuno?",
+           "¿Cuántas horas dura un día en Neptuno?"
+         ],
+         "responses": [
+		    "Neptuno tarda aproximadamente 16 horas y 6 minutos en completar una rotación completa sobre su propio eje.",
+            "El período de rotación de Neptuno es de alrededor de 16 horas y 6 minutos.",
+            "El día en Neptuno dura alrededor de 16 horas y 6 minutos.",
+            "Neptuno gira sobre su propio eje aproximadamente 0.67 veces durante una órbita completa alrededor del Sol.",
+            "La rotación de Neptuno es retrógrada, lo que significa que gira en dirección opuesta a la mayoría de los otros planetas en el Sistema Solar.",
+            "Neptuno gira en dirección opuesta a la mayoría de los otros planetas en el Sistema Solar, en un movimiento retrógrado.",
+            "El período de rotación de Neptuno es de aproximadamente 16 horas y 6 minutos.",
+           "Neptuno tarda alrededor de 16 horas y 6 minutos en completar una rotación sobre su propio eje.",
+           "La rotación de Neptuno es retrógrada, lo que significa que gira en dirección opuesta a la mayoría de los planetas en el Sistema Solar.",
+           "Un día en Neptuno dura alrededor de 16 horas y 6 minutos."
+         ]
+    },
+	{
+      "tag": "neptuno_superficie",
+      "patterns": [
+        "¿Cómo es la superficie de Neptuno?",
+        "¿Hay alguna característica interesante en la superficie de Neptuno?",
+        "¿Hay algún tipo de relieve en la superficie de Neptuno?",
+        "¿Qué se sabe sobre la superficie de Neptuno?",
+        "¿Hay montañas en la superficie de Neptuno?",
+        "¿Hay alguna evidencia de actividad volcánica en la superficie de Neptuno?",
+        "¿La superficie de Neptuno es rocosa o gaseosa?",
+        "¿Qué tipo de superficie tiene Neptuno?",
+        "¿Hay alguna característica geológica en la superficie de Neptuno?",
+        "¿Se ha estudiado la superficie de Neptuno?"
+      ],
+      "responses": [
+        "La superficie de Neptuno es principalmente gaseosa, lo que significa que no hay una superficie sólida en el planeta.",
+        "Debido a que Neptuno es un planeta gigante gaseoso, no hay una superficie sólida en el planeta.",
+        "No hay una superficie sólida en Neptuno, solo una capa de nubes y gases en la atmósfera superior del planeta.",
+        "No se sabe mucho sobre la superficie de Neptuno debido a que está cubierta por una capa de nubes y gases.",
+        "No hay evidencia de montañas o actividades volcánicas en la superficie de Neptuno.",
+        "No se ha observado actividad volcánica en Neptuno y se cree que la superficie es principalmente líquida y gaseosa.",
+        "La superficie de Neptuno es principalmente gaseosa y líquida, ya que está compuesta principalmente de hidrógeno, helio y metano.",
+        "Debido a que Neptuno es un planeta gigante gaseoso, no hay una superficie sólida y las características geológicas están en su atmósfera.",
+        "No se ha estudiado mucho la superficie de Neptuno debido a que está cubierta por una densa capa de nubes.",
+        "La superficie de Neptuno es principalmente gaseosa y líquida, por lo que no hay características geológicas importantes en la superficie del planeta."
+      ]
+    },
+	{
+            "tag": "neptuno_misiones",
+            "patterns": [
+                "¿Cuáles han sido las misiones espaciales enviadas a Neptuno?",
+                "¿Qué naves espaciales han visitado Neptuno?",
+                "¿Cuándo se enviaron misiones a Neptuno?",
+                "¿Qué se ha descubierto sobre Neptuno gracias a las misiones espaciales?",
+                "¿Cuál es la importancia de las misiones espaciales en el estudio de Neptuno?",
+                "¿Qué se espera encontrar en futuras misiones a Neptuno?",
+                "¿Cuál ha sido la misión más exitosa en el estudio de Neptuno?",
+                "¿Qué países han enviado misiones a Neptuno?",
+                "¿Cuáles son los desafíos de enviar misiones a Neptuno?",
+                "¿Cómo se planean las misiones espaciales a Neptuno?"
+            ],
+            "responses": [
+                "Hasta ahora, solo se han enviado dos misiones a Neptuno: la Voyager 2 de la NASA en 1989 y la sonda espacial Huygens de la Agencia Espacial Europea en 1998.",
+                "Hasta el momento, solo dos naves espaciales han visitado Neptuno: la Voyager 2 de la NASA en 1989 y la sonda espacial Huygens de la Agencia Espacial Europea en 1998.",
+                "La Voyager 2 fue lanzada en 1977 y llegó a Neptuno en 1989. La sonda espacial Huygens, que formaba parte de la misión Cassini-Huygens, fue lanzada en 1997 y llegó a Neptuno en 1998.",
+                "Las misiones espaciales han permitido conocer en detalle la composición, la estructura y el clima de Neptuno, además de descubrir nuevas lunas y anillos. También han permitido obtener imágenes de alta resolución del planeta y sus satélites.",
+                "Las misiones espaciales son fundamentales para el estudio de Neptuno, ya que permiten obtener información detallada del planeta que no se puede obtener desde la Tierra. Gracias a ellas, se han hecho importantes descubrimientos y se han ampliado nuestros conocimientos sobre el sistema solar.",
+                "Se espera que futuras misiones a Neptuno puedan seguir profundizando en el conocimiento del planeta y sus satélites, así como explorar los anillos y la atmósfera del planeta en mayor detalle.",
+                "La misión más exitosa en el estudio de Neptuno hasta ahora ha sido la Voyager 2 de la NASA, que proporcionó una gran cantidad de información y datos sobre el planeta y sus satélites.",
+                "Hasta el momento, solo Estados Unidos y la Agencia Espacial Europea han enviado misiones a Neptuno.",
+                "Las misiones espaciales han permitido descubrir muchos aspectos de Neptuno, como su composición atmosférica, la presencia de vientos extremadamente fuertes, sus anillos y sus lunas. También se ha descubierto que la temperatura de la atmósfera varía en función de la altura y que el planeta tiene un campo magnético fuerte.",
+				"La misión más exitosa en el estudio de Neptuno ha sido la Voyager 2 de la NASA, lanzada en 1977. La Voyager 2 sobrevoló Neptuno en 1989 y proporcionó la mayor cantidad de información sobre el planeta hasta la fecha, incluyendo imágenes detalladas de la atmósfera, los anillos y las lunas del planeta."
+	        ]
+    },
+	{
+            "tag": "neptuno_descubrimiento",
+            "patterns": [
+                "¿Quién descubrió Neptuno?",
+                "¿Cómo fue descubierto Neptuno?",
+                "¿En qué año se descubrió Neptuno?",
+                "¿Quién fue el primer astrónomo en ver Neptuno?",
+                "¿Por qué se tardó tanto en descubrir a Neptuno?",
+                "¿Qué hizo posible el descubrimiento de Neptuno?",
+                "¿Cómo influyó el descubrimiento de Neptuno en la astronomía?",
+                "¿Cuál fue la importancia del descubrimiento de Neptuno?",
+                "¿Qué características de Neptuno fueron descubiertas al momento de su hallazgo?",
+                "¿Cuál fue la controversia en torno al descubrimiento de Neptuno?"
+            ],
+            "responses": [
+                "Neptuno fue descubierto en 1846.",
+                "El descubrimiento de Neptuno se llevó a cabo gracias a cálculos matemáticos realizados por Urbain Le Verrier y John Couch Adams.",
+                "Neptuno fue descubierto en septiembre de 1846.",
+                "El primer astrónomo en ver Neptuno fue Galileo Galilei, quien confundió al planeta con una estrella fija en varias ocasiones.",
+                "Se tardó tanto en descubrir a Neptuno porque es muy tenue y su movimiento es muy lento, lo que lo hacía difícil de detectar.",
+                "El descubrimiento de Neptuno se hizo posible gracias a los cálculos matemáticos que predijeron la posición del planeta.",
+                "El descubrimiento de Neptuno fue importante porque confirmó que los cálculos matemáticos podían usarse para predecir el movimiento de los planetas.",
+                "El descubrimiento de Neptuno fue importante porque ayudó a mejorar los cálculos de las órbitas de los planetas del sistema solar.",
+                "Al momento de su hallazgo, se descubrió que Neptuno tenía una masa aproximada de 17 veces la de la Tierra y un diámetro cuatro veces mayor que el de nuestro planeta.",
+                "La controversia en torno al descubrimiento de Neptuno se dio entre Le Verrier y Adams, quienes discutieron sobre quién merecía el crédito del descubrimiento."
+            ]
+    },
+	{
+         "tag": "neptuno_orbita",
+         "patterns": [
+           "¿Cuál es la órbita de Neptuno?",
+           "¿Cuánto tarda Neptuno en dar una vuelta al sol?",
+           "¿Cuántos años dura una órbita completa de Neptuno?",
+           "¿A qué distancia del sol se encuentra Neptuno?",
+           "¿Cómo es la órbita de Neptuno?",
+           "¿Por qué la órbita de Neptuno es tan irregular?",
+           "¿Cómo afecta la órbita de Neptuno a sus lunas?",
+           "¿Cuánto tarda Neptuno en completar una vuelta sobre su eje?",
+           "¿La órbita de Neptuno es similar a la de Urano?",
+           "¿Cuál es la inclinación de la órbita de Neptuno?"
+         ],
+         "responses": [
+           "La órbita de Neptuno es una elipse con una excentricidad de 0.0086.",
+           "Neptuno tarda alrededor de 164.8 años terrestres en dar una vuelta al sol.",
+           "Una órbita completa de Neptuno dura alrededor de 164.8 años terrestres.",
+           "Neptuno se encuentra a una distancia media de aproximadamente 4.5 mil millones de kilómetros del sol.",
+           "La órbita de Neptuno es muy irregular debido a la influencia gravitacional de objetos cercanos y el hecho de que Neptuno no es el objeto más masivo en su vecindario.",
+           "La órbita irregular de Neptuno afecta a sus lunas, algunas de las cuales tienen órbitas retrógradas e inclinadas.",
+           "Neptuno tarda alrededor de 16 horas terrestres en completar una vuelta sobre su eje.",
+           "La órbita de Neptuno es similar a la de Urano en términos de excentricidad y su posición en el sistema solar exterior, pero difiere en su inclinación.",
+           "La inclinación de la órbita de Neptuno es de alrededor de 1.77 grados con respecto al plano de la eclíptica.",
+           "¿Cómo se explica la existencia de Plutón si Neptuno es el planeta más lejano del sistema solar?",
+         "La existencia de Plutón fue descubierta en 1930, cuando se pensaba que Neptuno era el planeta más lejano del sistema solar. Sin embargo, en 1992 se descubrió que Plutón es solo uno de los muchos objetos que componen el Cinturón de Kuiper, una región del sistema solar más allá de Neptuno. Aunque Plutón ya no se considera un planeta, sigue siendo un objeto interesante para estudiar debido a sus características únicas."
+         ]
+    },
+    {
+      "tag": "pluton_masa",
+      "patterns": [
+        "¿Cuál es la masa de Plutón?",
+        "¿Cuánto pesa Plutón?",
+        "¿Cuánta masa tiene Plutón?",
+        "¿Cuál es la masa total de Plutón?",
+        "¿Qué tan pesado es Plutón?",
+        "¿Cuál es la cantidad de masa de Plutón?",
+        "¿Cuántos kilogramos pesa Plutón?",
+        "¿Cuánto mide la masa de Plutón?",
+        "¿Cuántas toneladas pesa Plutón?",
+        "¿Cuánta materia forma Plutón?"
+      ],
+      "responses": [
+        "La masa de Plutón es de aproximadamente 1.31 × 10 elevada a la 22 kg.",
+        "El peso de Plutón es de alrededor de 1.31 × 10 elevada a la 22 kg.",
+        "La masa de Plutón es de alrededor de 1.31 × 10 elevada a la 22 kg.",
+        "La masa total de Plutón es de aproximadamente 1.31 × 10 elevada a la 22 kg.",
+        "Plutón es bastante pesado, su masa es de alrededor de 1.31 × 10 elevada a la 22 kg.",
+        "La cantidad de masa de Plutón es de alrededor de 1.31 × 10 elevada a la 22 kg.",
+        "Plutón pesa alrededor de 1.31 × 10 elevada a la 22 kg.",
+        "La masa de Plutón mide aproximadamente 1.31 × 10 elevada a la 22 kg.",
+        "Plutón pesa alrededor de 1.31 × 10 elevada a la 22 kilogramos o 1.31 × 10 elevado a la 10 toneladas.",
+        "La materia que forma Plutón tiene una masa total de alrededor de 1.31 × 10 elevada a la 22 kg."
+      ]
+    },
+	{
+      "tag": "pluton_tamaño",
+      "patterns": [
+        "¿Cuál es el tamaño de Plutón?",
+        "¿Qué tan grande es Plutón?",
+        "¿Cuál es el diámetro de Plutón?",
+        "¿Plutón es más grande que la Tierra?",
+        "¿Cómo se compara el tamaño de Plutón con otros planetas en nuestro sistema solar?",
+        "¿Plutón es el planeta más pequeño del sistema solar?",
+        "¿Qué lugar ocupa Plutón en cuanto a tamaño en nuestro sistema solar?",
+        "¿Qué se sabe sobre la superficie de Plutón?",
+        "¿Cuántas veces Plutón es más pequeño que la Tierra?",
+        "¿Cuál es la densidad de Plutón?"
+      ],
+      "responses": [
+        "El diámetro de Plutón es de aproximadamente 2377 km.",
+        "Plutón es más pequeño que la Luna y aproximadamente la mitad del tamaño de Mercurio.",
+        "Plutón es mucho más pequeño que la Tierra, su diámetro es de alrededor de 1/6 del diámetro terrestre.",
+        "Plutón es el noveno objeto más grande en el cinturón de Kuiper.",
+        "La superficie de Plutón es de aproximadamente 167 millones de km cuadrados.",
+        "Plutón no es considerado un planeta, sino un planeta enano, y es el segundo planeta enano más grande en nuestro sistema solar después de Eris.",
+        "Plutón es el planeta enano más grande conocido en nuestro sistema solar.",
+        "La superficie de Plutón es muy variada y contiene regiones montañosas, llanuras y cráteres.",
+        "Plutón es alrededor de 1/6 del tamaño de la Tierra.",
+        "La densidad de Plutón es de aproximadamente 2.03 g/cm cubicos."
+      ]
+    },
+	{
+      "tag": "pluton_lunas",
+      "patterns": [
+        "¿Cuántas lunas tiene Plutón?",
+        "¿Cómo se llaman las lunas de Plutón?",
+        "¿Cuál es la luna más grande de Plutón?",
+        "¿Cuál es la luna más pequeña de Plutón?",
+        "¿Quién descubrió las lunas de Plutón?",
+        "¿Qué tan lejos están las lunas de Plutón?",
+        "¿Cuál es la órbita más lejana de las lunas de Plutón?",
+        "¿Qué se sabe sobre la composición de las lunas de Plutón?",
+        "¿Cómo se formaron las lunas de Plutón?",
+        "¿Hay planes para explorar las lunas de Plutón en el futuro?"
+      ],
+      "responses": [
+        "Plutón tiene cinco lunas conocidas: Caronte, Estigia, Nix, Cerbero y Hidra.",
+        "Las lunas de Plutón se llaman Caronte, Estigia, Nix, Cerbero y Hidra.",
+        "Caronte es la luna más grande de Plutón, con un diámetro de aproximadamente la mitad del de Plutón.",
+        "Cerbero es la luna más pequeña de Plutón, con un diámetro de solo 13 km.",
+        "Las lunas de Plutón fueron descubiertas por James Christy y Robert Harrington en 1978.",
+        "Las lunas de Plutón orbitan a una distancia promedio de 17 000 km de Plutón.",
+        "La órbita más lejana de las lunas de Plutón es la de Hidra, que se encuentra a una distancia promedio de 65 000 km de Plutón.",
+        "Se sabe que las lunas de Plutón tienen composiciones similares a la del planeta enano, que incluyen hielo de agua, metano y nitrógeno congelados.",
+        "Se cree que las lunas de Plutón se formaron a partir de los restos de una colisión entre Plutón y otro objeto del cinturón de Kuiper hace miles de millones de años.",
+        "Aunque no hay planes actuales para explorar las lunas de Plutón, algunas misiones futuras podrían incluir una visita a estas fascinantes lunas."
+      ]
+    },
+	{
+      "tag": "pluton_atmosfera",
+      "patterns": [
+        "¿Plutón tiene atmósfera?",
+        "¿Qué gases componen la atmósfera de Plutón?",
+        "¿Cuál es la presión atmosférica en Plutón?",
+        "¿Qué tan densa es la atmósfera de Plutón?",
+        "¿Cómo se comporta la atmósfera de Plutón?",
+        "¿La atmósfera de Plutón afecta a su superficie?",
+        "¿Qué es el viento solar y cómo afecta a la atmósfera de Plutón?",
+        "¿Qué son las auroras y se pueden ver en Plutón?",
+        "¿Se han registrado tormentas en la atmósfera de Plutón?",
+        "¿Qué importancia tiene el estudio de la atmósfera de Plutón?"
+      ],
+      "responses": [
+        "Sí, Plutón tiene una delgada atmósfera compuesta principalmente de nitrógeno, con cantidades menores de metano y monóxido de carbono.",
+        "Los principales componentes de la atmósfera de Plutón son el nitrógeno (N), el metano (CH 4) y el monóxido de carbono (CO).",
+        "La presión atmosférica en la superficie de Plutón es de aproximadamente 1/100.000 de la presión atmosférica terrestre.",
+        "La atmósfera de Plutón es muy delgada, con una densidad de alrededor de 10 elevado a la menos 4 kg/m cubicos.",
+        "La atmósfera de Plutón se comporta como un gas, expandiéndose y contrayéndose en respuesta a los cambios de temperatura.",
+        "Sí, la atmósfera de Plutón afecta su superficie, ya que la sublimación de hielo de nitrógeno y metano en la superficie puede afectar la composición y la textura del terreno.",
+        "El viento solar es una corriente de partículas cargadas emitidas por el Sol, que pueden interactuar con la atmósfera de Plutón y afectar su comportamiento.",
+        "Las auroras son fenómenos luminosos que se producen cuando partículas cargadas chocan con la atmósfera cerca de los polos magnéticos. No se han observado auroras en Plutón, ya que no tiene un campo magnético.",
+        "Sí, se han registrado tormentas en la atmósfera de Plutón, que pueden causar cambios en la apariencia y la composición de la atmósfera.",
+        "El estudio de la atmósfera de Plutón es importante para entender cómo se comporta y evoluciona el sistema solar exterior, así como para obtener información sobre la formación y evolución de cuerpos helados similares."
+      ]
+    },
+	{
+      "tag": "pluton_color",
+      "patterns": [
+        "¿Por qué Plutón es de color rojizo?",
+        "¿Qué causa el color rojizo de Plutón?",
+        "¿Qué sustancias hacen que Plutón sea rojizo?",
+        "¿Es Plutón el objeto más rojizo del Sistema Solar?",
+        "¿La superficie de Plutón es uniformemente rojiza?",
+        "¿Es la luna Caronte de color rojizo como Plutón?",
+        "¿El color de Plutón tiene alguna relación con su atmósfera?",
+        "¿Por qué las imágenes de Plutón muestran diferentes tonalidades de rojo?",
+        "¿El color rojizo de Plutón es permanente?",
+        "¿Qué estudios se han realizado sobre el color de Plutón?"
+      ],
+      "responses": [
+        "El color rojizo de Plutón es probablemente causado por la presencia de compuestos orgánicos complejos llamados tolinas.",
+        "Se cree que la radiación cósmica y la luz solar pueden haber transformado los hielos de metano y nitrógeno en tolinas rojizas.",
+        "Las tolinas, compuestos orgánicos complejos, son los responsables del color rojizo de Plutón.",
+        "No, hay otros objetos en el Sistema Solar que son más rojizos que Plutón, como Marte y algunos asteroides.",
+        "No, la superficie de Plutón no es uniformemente rojiza, también hay zonas más claras y oscuras.",
+        "No, la luna Caronte no es de color rojizo como Plutón, su superficie es más bien grisácea.",
+        "Sí, la atmósfera de Plutón puede tener cierta influencia en su color, ya que interactúa con la luz solar y los rayos cósmicos.",
+        "El color rojizo de Plutón puede variar debido a la composición de su superficie y la forma en que interactúa con la luz solar.",
+        "No, el color rojizo de Plutón puede cambiar con el tiempo debido a diversos factores.",
+        "Se han realizado estudios espectroscópicos para determinar la composición de la superficie de Plutón y su relación con el color rojizo."
+      ]
+    },
+	{
+      "tag": "pluton_descubrimiento",
+      "patterns": [
+        "¿Quién descubrió a Plutón?",
+        "¿Cómo se descubrió a Plutón?",
+        "¿Cuándo se descubrió a Plutón?",
+        "¿Por quién fue descubierto Plutón?",
+        "¿Cuál es la historia del descubrimiento de Plutón?",
+        "¿En qué año se descubrió a Plutón?",
+        "¿Qué eventos llevaron al descubrimiento de Plutón?",
+        "¿Quiénes fueron los astrónomos que descubrieron a Plutón?",
+        "¿Dónde se encontraba Plutón antes de su descubrimiento?",
+        "¿Qué significó el descubrimiento de Plutón para la astronomía?"
+      ],
+      "responses": [
+        "Plutón fue descubierto por el astrónomo estadounidense Clyde Tombaugh en 1930.",
+        "Plutón fue descubierto por observación directa mediante el uso de un telescopio por el astrónomo Clyde Tombaugh.",
+        "Plutón fue descubierto el 18 de febrero de 1930.",
+        "Plutón fue descubierto por Clyde Tombaugh, un astrónomo estadounidense que trabajaba en el Observatorio Lowell.",
+        "La búsqueda de Plutón comenzó en el Observatorio Lowell en 1905 y culminó con su descubrimiento en 1930 por Clyde Tombaugh.",
+        "Plutón fue descubierto el 18 de febrero de 1930 por Clyde Tombaugh, un joven astrónomo de 24 años que trabajaba en el Observatorio Lowell.",
+        "La búsqueda de un noveno planeta comenzó en 1905 en el Observatorio Lowell, pero Plutón no fue descubierto hasta 1930 por Clyde Tombaugh.",
+        "Plutón fue descubierto por Clyde Tombaugh, un astrónomo estadounidense que trabajaba en el Observatorio Lowell. Fue el primer objeto descubierto en el cinturón de Kuiper.",
+        "Antes de su descubrimiento, Plutón era desconocido para la humanidad.",
+        "El descubrimiento de Plutón fue un hito importante en la astronomía, ya que ayudó a ampliar nuestra comprensión del sistema solar y llevó a la posterior búsqueda de otros objetos en el cinturón de Kuiper."
+      ]
+    },
+	{
+      "tag": "pluton_rotacion",
+      "patterns": [
+        "¿Cuánto tiempo tarda Plutón en rotar sobre su propio eje?",
+        "¿Cuál es la duración del día en Plutón?",
+        "¿Cuántas horas dura un día en Plutón?",
+        "¿Plutón gira sobre su propio eje?",
+        "¿Cuál es la velocidad de rotación de Plutón?",
+        "¿Cuánto tiempo tarda Plutón en completar una vuelta sobre su eje?",
+        "¿La rotación de Plutón es sincrónica?",
+        "¿Plutón rota en sentido horario o antihorario?",
+        "¿La velocidad de rotación de Plutón es constante?",
+        "¿Cómo se determinó la velocidad de rotación de Plutón?"
+      ],
+      "responses": [
+        "Plutón tarda aproximadamente 6 días y 9 horas en rotar sobre su propio eje.",
+        "El día en Plutón dura alrededor de 6 días y 9 horas terrestres.",
+        "Un día en Plutón dura unas 150.7 horas terrestres.",
+        "Sí, Plutón gira sobre su propio eje.",
+        "La velocidad de rotación de Plutón es de aproximadamente 4.67 kilómetros por hora.",
+        "Plutón tarda alrededor de 6 días y 9 horas en completar una vuelta sobre su eje.",
+        "No, la rotación de Plutón no es sincrónica.",
+        "Plutón rota en sentido contrario al de la mayoría de los planetas, es decir, en sentido antihorario.",
+        "No, la velocidad de rotación de Plutón varía dependiendo de su posición en su órbita.",
+        "La velocidad de rotación de Plutón se determinó mediante observaciones telescópicas y mediciones de su espectro de luz."
+      ]
+    },
+	{
+        "tag": "pluton_orbita",
+        "patterns": [
+            "¿Cuál es la órbita de Plutón?",
+            "¿Cuánto tiempo tarda Plutón en dar una vuelta alrededor del Sol?",
+            "¿Qué tipo de órbita tiene Plutón?",
+            "¿Cómo es la trayectoria orbital de Plutón?",
+            "¿Qué distancia hay entre Plutón y el Sol en su punto más cercano?",
+            "¿A qué velocidad se mueve Plutón en su órbita?",
+            "¿Qué es la resonancia orbital de Plutón?",
+            "¿Qué otros objetos comparten la órbita de Plutón?",
+            "¿Cuál es la inclinación de la órbita de Plutón con respecto al plano de la eclíptica?",
+            "¿Cómo afecta la órbita de Plutón a su clima y geología?"
+        ],
+        "responses": [
+            "La órbita de Plutón es una órbita elíptica que lo lleva a una distancia del Sol de entre 4.4 y 7.4 mil millones de kilómetros. Tarda aproximadamente 248 años terrestres en completar una órbita completa alrededor del Sol.",
+            "Plutón tarda aproximadamente 248 años terrestres en dar una vuelta completa alrededor del Sol.",
+            "La órbita de Plutón es elíptica y altamente inclinada con respecto al plano de la eclíptica.",
+            "La trayectoria orbital de Plutón es compleja debido a la resonancia orbital que tiene con Neptuno, lo que significa que los dos planetas están en una relación orbital estable.",
+            "La distancia entre Plutón y el Sol varía a lo largo de su órbita, alcanzando un mínimo de 4.4 mil millones de kilómetros y un máximo de 7.4 mil millones de kilómetros.",
+            "Plutón se mueve a una velocidad media de alrededor de 4.67 kilómetros por segundo en su órbita alrededor del Sol.",
+            "La resonancia orbital de Plutón es un fenómeno en el cual Plutón y Neptuno están en una relación orbital estable debido a que sus órbitas están en una relación de múltiplos exactos. Plutón completa dos órbitas alrededor del Sol por cada tres órbitas de Neptuno.",
+            "Además de Plutón, hay otros objetos conocidos en la región del Cinturón de Kuiper que comparten la órbita de Plutón, como Eris y Makemake.",
+            "La inclinación de la órbita de Plutón con respecto al plano de la eclíptica es de aproximadamente 17 grados.",
+            "La órbita de Plutón tiene un impacto significativo en su clima y geología debido a la variación en la distancia del Sol y la inclinación de su eje de rotación."
+        ]
+    },
+	
+	{
+      "tag": "pluton_misiones",
+      "patterns": [
+        "¿Cuántas misiones han sido enviadas a Plutón?",
+        "¿Qué misiones han sido enviadas a Plutón?",
+        "¿Quién ha enviado misiones a Plutón?",
+        "¿Qué objetivos tenían las misiones enviadas a Plutón?",
+        "¿Cuándo fueron enviadas las misiones a Plutón?",
+        "¿Cuál es la misión más reciente a Plutón?",
+        "¿Cuál fue la primera misión a Plutón?",
+        "¿Cuánto tiempo tomaron las misiones en llegar a Plutón?",
+        "¿Qué descubrieron las misiones enviadas a Plutón?",
+        "¿Se planean más misiones a Plutón en el futuro?"
+      ],
+      "responses": [
+        "Hasta la fecha, se han enviado dos misiones a Plutón: New Horizons de la NASA y la misión Tianwen-1 de China.",
+        "Las misiones enviadas a Plutón son New Horizons de la NASA y la misión Tianwen-1 de China.",
+        "Las misiones a Plutón han sido enviadas principalmente por la NASA, con la misión Tianwen-1 de China también llegando recientemente.",
+        "Los objetivos de las misiones enviadas a Plutón incluían estudiar la superficie, la atmósfera, la composición y la geología de Plutón y sus lunas, así como tomar medidas de la radiación y otros fenómenos cósmicos.",
+        "New Horizons fue lanzada en 2006 y llegó a Plutón en julio de 2015, mientras que Tianwen-1 fue lanzada en 2020 y llegó en febrero de 2023.",
+        "La misión más reciente a Plutón es la misión Tianwen-1 de China, que llegó en febrero de 2023.",
+        "La primera misión a Plutón fue New Horizons, lanzada por la NASA en 2006 y llegó a Plutón en 2015.",
+        "Las misiones a Plutón tomaron varios años en llegar, en el caso de New Horizons tomó aproximadamente 9 años en llegar, mientras que Tianwen-1 tomó alrededor de 3 años.",
+        "Las misiones enviadas a Plutón han descubierto características geológicas sorprendentes, como montañas, cañones y glaciares, y han revelado la presencia de una atmósfera delgada.",
+        "No hay misiones planeadas actualmente a Plutón, pero es posible que haya futuras misiones si se justifica la necesidad de enviar una misión."
+      ]
+    },
+	{
+      "tag": "pluton_superficie",
+      "patterns": [
+        "¿Cómo es la superficie de Plutón?",
+        "Háblame sobre la superficie de Plutón",
+        "Características de la superficie de Plutón",
+        "¿Qué sabemos sobre la superficie de Plutón?",
+        "Explícame cómo es la superficie de Plutón",
+        "¿Qué podemos encontrar en la superficie de Plutón?",
+        "¿Hay montañas en la superficie de Plutón?",
+        "¿Cómo es el terreno de Plutón?",
+        "¿Qué tipo de superficie tiene Plutón?",
+        "¿Qué descubrimientos se han hecho sobre la superficie de Plutón?"
+      ],
+      "responses": [
+        "La superficie de Plutón es muy diversa y contiene una gran cantidad de terreno montañoso, cráteres y llanuras heladas. Además, se han encontrado evidencias de actividad geológica en la superficie, incluyendo volcanes de hielo y grietas en la corteza. Los científicos también han observado áreas oscuras y brillantes en la superficie, lo que sugiere que hay diferentes tipos de materiales presentes.",
+        "La superficie de Plutón es extremadamente diversa, con montañas, llanuras heladas, cráteres y mucho más. Los científicos han descubierto evidencia de actividad geológica en la superficie, incluyendo volcanes de hielo y fracturas en la corteza. Además, hay diferentes tipos de materiales presentes, que se reflejan en las áreas oscuras y brillantes que se pueden observar en la superficie.",
+        "La superficie de Plutón es bastante compleja y presenta diferentes tipos de terreno. Los científicos han observado montañas, llanuras heladas y cráteres, así como evidencia de actividad geológica como volcanes de hielo y fracturas en la corteza. También hay áreas oscuras y brillantes que sugieren diferentes tipos de materiales presentes.",
+        "Los científicos han descubierto una gran cantidad de características en la superficie de Plutón. Se pueden observar montañas, llanuras heladas y cráteres, así como actividad geológica como volcanes de hielo y fracturas en la corteza. Además, hay diferentes tipos de materiales presentes, que se reflejan en las áreas oscuras y brillantes en la superficie.",
+        "La superficie de Plutón es muy interesante y diversa. Los científicos han observado montañas, llanuras heladas, cráteres, evidencia de actividad geológica como volcanes de hielo y fracturas en la corteza, y diferentes tipos de materiales que se pueden ver en las áreas oscuras y brillantes en la superficie.",
+        "Se sabe que la superficie de Plutón es muy variada, con diferentes tipos de terreno, incluyendo montañas, llanuras heladas y cráteres. También hay evidencia de actividad geológica, como volcanes de hielo y grietas en la corteza. Además, los científicos han observado diferentes tipos de materiales presentes en la superficie",
+		"Sí, se han encontrado montañas en la superficie de Plutón, incluyendo la montaña más alta conocida en el sistema solar, llamada Montaña Wright.",
+	    "El terreno de Plutón es muy variado e incluye montañas, llanuras heladas, cañones y cráteres. También hay evidencia de actividad geológica reciente, como grietas y penitentes.",
+        "La superficie de Plutón está compuesta principalmente de hielo de nitrógeno, metano y monóxido de carbono congelados, con una capa de roca sólida debajo.",
+        "Algunos de los descubrimientos más interesantes sobre la superficie de Plutón incluyen la presencia de montañas, cañones y cráteres, así como evidencia de actividad geológica reciente. También se ha descubierto que la atmósfera de Plutón es mucho más densa de lo que se pensaba anteriormente, y que hay grandes cantidades de hielo de metano y nitrógeno en la superficie."		
+	   ]
+	}
+  ]
+}
